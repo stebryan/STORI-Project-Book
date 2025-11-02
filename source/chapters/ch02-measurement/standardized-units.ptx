@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-standardized-units">
+    <title>Standardized Units</title>
+
+    <p>
+        Units tell us the standard to which we are comparing our measurement.
+        Without a unit, a measurement is meaningless.
+        For instance, when a friend living in Europe tells me that it was 35 degrees yesterday, I might assume that it was very cold because I'm thinking in degrees Fahrenheit.
+        However, it was actually a hot summer day because she was measuring temperature in degrees Celsius.
+        35 degrees Fahrenheit and 35 degrees Celsius are very different temperatures.
+        As you might imagine, we all need to agree to a standard to communicate more effectively.
+        That's why in 1960 the General Conference of Weights and Measurements adopted a particular set of metric units from which all other units can be derived: the Systeme International.
+    </p>
+
+    <p>
+        You may already be familiar with either the English unit system or the metric unit system, or possibly both.
+        In this course, we will use the SI system, which is very similar to the metric system and has been agreed upon by the scientific community.
+        While they agreed upon more than is given here, the physical quantities listed in this table are the ones we will use in this course.
+    </p>
+
+    <table xml:id="table-standardized-units">
+        <title>SI Base Quantities and Units</title>
+
+        <tabular row-headers="yes" width="100%" halign="center" bottom="minor">
+            <col header="yes" width="54%"/> <col width="46%"/>
+            <row>
+                <cell/>
+                <cell>Base Unit (Symbol)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Length</cell>
+                <cell>meter (m)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Mass</cell>
+                <cell>kilogram (kg)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Time</cell>
+                <cell>second (s)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Temperature</cell>
+                <cell>kelvin (K)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Electric current</cell>
+                <cell>ampere (A)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Amount of substance</cell>
+                <cell>mole (mol)</cell>
+            </row>
+
+            <row>
+                <cell header="yes">Luminous intensity</cell>
+                <cell>candela (cd)</cell>
+            </row>
+        </tabular>
+    </table>
+
+    <p>
+        The column on the left is the physical quantity and the column on the right is the corresponding base unit with the symbol of the base unit included in parentheses.
+        Refer to the table above to see each pairing together.
+        The base unit for length is the meter.
+        The base unit for mass is the kilogram.
+        The base unit for time is a second.
+        The base unit for temperature is the kelvin.
+        And the base unit for the amount of a substance is the mole.
+        Notice that kilogram, the base unit for mass, is the only base unit that includes a prefix, kilo.
+        You may also notice other physical quantities like area, volume, and density are not included in this list.
+        That is because they are derived units and we will cover those later.
+    </p>
+
+    <insight>
+        <title>SI System - Système International</title>
+
+        <p>
+            Agreed upon by scientists and utilizes the metric system with standards
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    All units in the SI system are related to the standard unit by a power of 10.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The power of 10 is indicated by a prefix.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    It is usually best to measure a property in a unit close to the size of the property.
+                </p>
+            </li>
+        </ul>
+    </insight>
+</section>

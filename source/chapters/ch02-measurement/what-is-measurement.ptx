@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-what-is-measurement">
+    <title>What is a Measurement?</title>
+
+    <p>
+        So, what is a measurement? A <term>measurement</term> is a quantitative observation.Remember from chapter 1, that means an observation that involves a number and a unit.
+        Measurements are meaningful because they are compared to an agreed-upon standard.
+        If a friend asks you to run a 5k with them, you know how far you're going to have to run because we all know what a kilometer is, or at least you can measure one, because it is an agreed-upon standard.
+        A property that can be measured is called a physical quantity and every physical quantity must have a number and a unit.
+        In this example, 61.2 is the number part, and kilograms is the unit part.
+    </p>
+
+    <figure xml:id="measurement-example">
+        <image source="chapters/ch02-measurement/images/numberunit.jpg" width="60%" >
+            <description>
+                61.2 kilograms
+            </description>
+        </image>
+        <caption>An experiment involves detailed, systematic and connected steps.In this example, 61.2 is the number part, and kilograms is the unit part. </caption>
+    </figure>
+</section>

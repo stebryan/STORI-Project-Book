@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introduction to Chemistry and The Scientific Method</title>
+    <title>Introduction to Chemistry and The Scientific Method</title>
 
-  <introduction>
-    <p> In our first module, we will begin to develop our understanding of chemistry and take a closer look at how scientists approach understanding the world around us. Specifically, our goals are to: Develop an understanding of chemistry.Define the steps of the scientific method. Recognize the difference between a scientific theory and scientific law. Distinguish between qualitative and quantitative observations. Classify independent, dependent, and controlled variables.
- </p>
-    <!-- Left: Image -->
-    <figure xml:id="intro-chemistry">
-        <image source="chapters/ch01-introduction/images/beaker.jpg" width="60%" >
-        <description>An assortment of colorful liquid filled test tubes in a beaker.</description></image>
-        <caption>An assortment of colorful liquid filled test tubes in a beaker.</caption>
-    </figure>
+    <introduction>
+        <p>
+            In our first section, we will begin to develop our understanding of chemistry and take a closer look at how scientists approach understanding the world around us.
+        </p>
 
-    <!-- Right: Text Content -->
-    <paragraph>
-        <title>Learning Objectives</title>
-        <p>In this module, our goals are to:</p>
-        <list>
-            <item>Develop an understanding of chemistry.</item>
-            <item>Define the steps of the scientific method.</item>
-            <item>Recognize the difference between a scientific theory and scientific law.</item>
-            <item>Distinguish between qualitative and quantitative observations.</item>
-            <item>Classify independent, dependent, and controlled variables.</item>
-        </list>
-    </paragraph>
-  </introduction>
+        <objectives>
+            <p>
+                In this module, our goals are to:
+            </p>
 
-  <!-- include sections -->
-  <xi:include href="what-is-chemistry.ptx" />
-  <xi:include href="scientific-method.ptx" />
-  <xi:include href="scientific-method-examples.ptx" />
-  <xi:include href="theory-vs-law.ptx" />
-  <xi:include href="knowledge-check1.ptx" />
-  <xi:include href="experiments.ptx" />
-  <xi:include href="variables.ptx" />
-  <xi:include href="types-of-data.ptx" />
-  <xi:include href="knowledge-check2.ptx" />
+            <ul>
+                <li>
+                    Develop an understanding of chemistry.
+                </li>
+
+                <li>
+                    Define the steps of the scientific method.
+                </li>
+
+                <li>
+                    Recognize the difference between a scientific theory and scientific law.
+                </li>
+
+                <li>
+                    Distinguish between qualitative and quantitative observations.
+                </li>
+
+                <li>
+                    Classify independent, dependent, and controlled variables.
+                </li>
+            </ul>
+        </objectives>
+
+        <figure xml:id="intro-chemistry">
+            <image source="chapters/ch01-introduction/images/beaker.jpg" width="60%" >
+                <description>
+                    An assortment of colorful liquid filled test tubes in a beaker.
+                </description>
+            </image>
+            <caption>An assortment of colorful liquid filled test tubes in a beaker.</caption>
+        </figure>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="what-is-chemistry.ptx" />
+    <xi:include href="scientific-method.ptx" />
+    <xi:include href="scientific-method-examples.ptx" />
+    <xi:include href="theory-vs-law.ptx" />
+    <xi:include href="knowledge-check1.ptx" />
+    <xi:include href="experiments.ptx" />
+    <xi:include href="variables.ptx" />
+    <xi:include href="types-of-data.ptx" />
+    <xi:include href="knowledge-check2.ptx" />
 </chapter>

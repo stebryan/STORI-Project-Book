@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-measurement" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Measurement</title>
+    <title>Measurement</title>
 
-  <introduction>
-    <p>Draft introduction for the measurement chapter. Replace this paragraph with your overview once content is ready.</p>
-  </introduction>
+    <introduction>
+        <p>
+            We will now be talking about measurements and significant figures.
+            There is alot to cover in this section.
+            First, we're going to be looking at the building blocks of measurements and how to get started with units.We will also learn about metric prefixes, how to write very large or very small numbers, and how to correctly record a measurement.
+            Then we will learn how to relate measurements to significant figures and use these in calculations.
+        </p>
 
-  <!-- include sections -->
-  <xi:include href="measurement-basics.ptx" />
+        <objectives>
+            <p>
+                In this module, our goals are to:
+            </p>
+
+            <ul>
+                <li>
+                    List SI units of length, mass, time, and temperature.
+                </li>
+
+                <li>
+                    List the multipliers, symbols, and numerical meanings for all SI unit prefixes.
+                </li>
+
+                <li>
+                    Convert numbers between scientific notation and decimal notation.
+                </li>
+
+                <li>
+                    Given an instrument and an object make a measurement including units with the appropriate level of uncertainty.
+                </li>
+
+                <li>
+                    Given a physical quantity, identify the correct number of significant figures.
+                </li>
+
+                <li>
+                    When using measured physical quantities in calculations, report the correct number of significant figures in an answer.
+                </li>
+            </ul>
+        </objectives>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="what-is-measurement.ptx" />
+    <xi:include href="standardized-units.ptx" />
 </chapter>
