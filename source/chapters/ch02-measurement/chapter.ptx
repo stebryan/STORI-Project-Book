@@ -46,4 +46,5 @@
     <!-- include sections -->
     <xi:include href="what-is-measurement.ptx" />
     <xi:include href="standardized-units.ptx" />
+    <xi:include href="SIprefixes.ptx" />
 </chapter>
