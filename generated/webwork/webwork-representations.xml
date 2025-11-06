@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1" source="chem-library/setCH151_LearningChecks/module1-1.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Law, Theory, Experiment, Hypothesis, or Observation</p>
+<p><em>Classify each statement as a law, a theory, an experiment, a hypothesis, or an observation.</em></p>
+<p><ol label="1.">
+<li>
+<p>Ice always floats on liquid water.  <ul form="popup" name="AnSwEr0001"><li>
+<p>choose an answer</p>
+</li><li>
+<p>law</p>
+</li><li>
+<p>theory</p>
+</li><li>
+<p>experiment</p>
+</li><li>
+<p>hypothesis</p>
+</li><li>
+<p>observation</p>
+</li></ul></p>
+</li>
+<li>
+<p>A student in CH 151 proposes that the more sleep students get at night, the better they will perform on the first exam.  <ul form="popup" name="AnSwEr0002"><li>
+<p>choose an answer</p>
+</li><li>
+<p>law</p>
+</li><li>
+<p>theory</p>
+</li><li>
+<p>experiment</p>
+</li><li>
+<p>hypothesis</p>
+</li><li>
+<p>observation</p>
+</li></ul></p>
+</li>
+<li>
+<p>Numerous experiments by a large body of scientists have reinforced the concept that organisms can change their characteristics over time using the process of natural selection.   <ul form="popup" name="AnSwEr0003"><li>
+<p>choose an answer</p>
+</li><li>
+<p>law</p>
+</li><li>
+<p>theory</p>
+</li><li>
+<p>experiment</p>
+</li><li>
+<p>hypothesis</p>
+</li><li>
+<p>observation</p>
+</li></ul></p>
+</li>
+<li>
+<p>When ice was added to water, the temperature of the water decreased after the ice            melted.  <ul form="popup" name="AnSwEr0004"><li>
+<p>choose an answer</p>
+</li><li>
+<p>law</p>
+</li><li>
+<p>theory</p>
+</li><li>
+<p>experiment</p>
+</li><li>
+<p>hypothesis</p>
+</li><li>
+<p>observation</p>
+</li></ul></p>
+</li>
+<li>
+<p>The ingredients of Ivory soap were analyzed to see whether it really is 99.44% pure, as      advertised.  <ul form="popup" name="AnSwEr0005"><li>
+<p>choose an answer</p>
+</li><li>
+<p>law</p>
+</li><li>
+<p>theory</p>
+</li><li>
+<p>experiment</p>
+</li><li>
+<p>hypothesis</p>
+</li><li>
+<p>observation</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>Review:</p>
+<p><ul>
+<li>
+<p>A hypothesis is a tentative explanation that can be tested by further investigation.</p>
+</li>
+<li>
+<p>A theory is a well-supported explanation of observations.</p>
+</li>
+<li>
+<p>A scientific law is a statement that summarizes the relationship between variables.</p>
+</li>
+<li>
+<p>An experiment is a controlled method of testing a hypothesis.</p>
+</li>
+<li>
+<p>An observation implies a description of the quality of an object or the specfic details       of a change seen.</p>
+</li>
+</ul></p>
+<p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>\text{law}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{hypothesis}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{theory}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{observation}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{experiment}</m>
+        </p>
+      </answer>
+      <solution><p><ol label="1.">
+<li>
+<p>This is a general statement of a relationship between the properties of liquid and solid water, so it is a <alert>law</alert>.</p>
+</li>
+<li>
+<p>This is a possible explanation for better exam scores, so it is a <alert>hypothesis</alert>.</p>
+</li>
+<li>
+<p>This is a statement that explains how sepcies change their characteriestics over time using the support of many experiments by numerous people, so it is a <alert>theory</alert>.</p>
+</li>
+<li>
+<p>The temperature is observed before and after a change is made in a system, so these are <alert>observations</alert>.</p>
+</li>
+<li>
+<p>This is an analysis designed to test a hypothesis (in this case, the manufacturer’s claim of purity), so it is an <alert>experiment</alert>.</p>
+</li>
+</ol></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module1-1.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module1-1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2" source="chem-library/setCH151_LearningChecks/module1-2.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Law vs. Theory</p>
+<p><em>Fill in the blank with what or why.</em></p>
+<p><ol label="1.">
+<li>
+<p>A law deals with <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>what</p>
+</li><li>
+<p>why</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>A theory deals with <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>what</p>
+</li><li>
+<p>why</p>
+</li></ul>.</p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>Review:</p>
+<p><ul>
+<li>
+<p>A theory is a well-supported explanation of observations.</p>
+</li>
+<li>
+<p>A scientific law is a statement that summarizes the relationship between variables.</p>
+</li>
+</ul></p>
+<p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>\text{what}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{why}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module1-2.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module1-2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3" source="chem-library/setCH151_LearningChecks/module1-3a.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Experimental Design</p>
+<p><em>List the three types of variables.</em></p>
+<p><ol label="1.">
+<li>
+<p><fillin characters="14" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p><fillin characters="14" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p><fillin characters="14" name="AnSwEr0003"/></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>Review:</p>
+<p><ul>
+<li>
+<p>A theory is a well-supported explanation of observations.</p>
+</li>
+<li>
+<p>A scientific law is a statement that summarizes the relationship between variables.</p>
+</li>
+</ul></p>
+<p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>{\text{independent}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\text{dependent}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\text{controlled}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module1-3a.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module1-3a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4" source="chem-library/setCH151_LearningChecks/module1-3b.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Experimental Design</p>
+<p><em>Choose the best answer to fill in the blank.</em></p>
+<p><ol label="1.">
+<li>
+<p>The <ul form="popup" name="AnSwEr0001"><li>
+<p>choose an answer</p>
+</li><li>
+<p>dependent</p>
+</li><li>
+<p>independent</p>
+</li><li>
+<p>controlled</p>
+</li></ul> variable is the variable that is altered on purpose by the researcher.</p>
+</li>
+<li>
+<p>Experiments are performed to investigate how the <ul form="popup" name="AnSwEr0002"><li>
+<p>choose an answer</p>
+</li><li>
+<p>dependent</p>
+</li><li>
+<p>independent</p>
+</li><li>
+<p>controlled</p>
+</li></ul> variable responds to             changes in the independent variable.</p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>\text{independent}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{dependent}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module1-3b.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module1-3b.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5" source="chem-library/setCH151_LearningChecks/module1-4.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Qualitative vs Quantitative</p>
+<p><em>Classify each statement as qualitative observation, or a quantitative observation.</em></p>
+<p><ol label="1.">
+<li>
+<p>Hot air rises. <ul form="popup" name="AnSwEr0001"><li>
+<p>choose an answer</p>
+</li><li>
+<p>qualitative</p>
+</li><li>
+<p>quantitative</p>
+</li></ul></p>
+</li>
+<li>
+<p>When 10 g of ice were added to 100 mL of water at 25 °C, the temperature of the water        decreased to 15.5 °C after the ice melted. <ul form="popup" name="AnSwEr0002"><li>
+<p>choose an answer</p>
+</li><li>
+<p>qualitative</p>
+</li><li>
+<p>quantitative</p>
+</li></ul></p>
+</li>
+<li>
+<p>Gas mixtures that contain more than 4% hydrogen in air are potentially explosive.  <ul form="popup" name="AnSwEr0003"><li>
+<p>choose an answer</p>
+</li><li>
+<p>qualitative</p>
+</li><li>
+<p>quantitative</p>
+</li></ul></p>
+</li>
+<li>
+<p>Limestone is relatively insoluble in water but dissolves readily in dilute acid with         the evolution of a gas. <ul form="popup" name="AnSwEr0004"><li>
+<p>choose an answer</p>
+</li><li>
+<p>qualitative</p>
+</li><li>
+<p>quantitative</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>\text{qualitative}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{quantitative}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{quantitative}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{qualitative}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module1-4.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module1-4.pg"/>
+  </webwork-reps>
+</webwork-representations>

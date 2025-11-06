@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Explore SI Prefixes</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+    }
+
+    .interactive-wrapper {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding-block: 1rem 1.45rem;
+      padding-inline: clamp(0.75rem, 2.2vw, 1.5rem);
+      display: flex;
+      flex-direction: column;
+      gap: 1.35rem;
+    }
+
+    .figure-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      text-align: center;
+    }
+
+    .figure-header h1 {
+      margin: 0;
+      font-size: clamp(1.65rem, 2.4vw, 2.2rem);
+      letter-spacing: 0.01em;
+    }
+
+    .figure-header p {
+      margin: 0;
+      font-size: 1.05rem;
+      color: #4b5563;
+    }
+
+    .figure-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+
+    object#si-prefixes-diagram {
+      width: 100%;
+      max-width: 1040px;
+      aspect-ratio: 1920 / 1080;
+      height: clamp(380px, 40vw, 600px);
+      border: none;
+      background: transparent;
+      border-radius: 0.55rem;
+      box-shadow: 0 12px 28px rgb(15 23 42 / 12%), 0 0 0 1px rgb(15 23 42 / 4%);
+    }
+
+    .details-card {
+      background: linear-gradient(120deg, #0f172a 4%, #1f2937 96%);
+      color: #f8fafc;
+      border-radius: 0.9rem;
+      padding: clamp(1rem, 3vw, 1.4rem);
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .details-card h2 {
+      margin: 0;
+      font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+      font-weight: 600;
+    }
+
+    .details-grid {
+      display: grid;
+      gap: 0.6rem;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .details-grid dt {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #94a3b8;
+    }
+
+    .details-grid dd {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #f1f5f9;
+    }
+
+    .details-description {
+      margin: 0;
+      font-size: 1.02rem;
+      line-height: 1.5;
+      color: #e2e8f0;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      background: #ffffff;
+      border-radius: 0.9rem;
+      padding: clamp(1.1rem, 3.2vw, 1.55rem);
+      box-shadow: 0 16px 36px rgb(15 23 42 / 12%);
+    }
+
+    .controls-label {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .control-grid {
+      display: grid;
+      gap: 0.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+
+    .control-grid button {
+      border: 1px solid #dbeafe;
+      background: #ffffff;
+      color: #1d4ed8;
+      font-weight: 600;
+      padding: 0.65rem 0.4rem;
+      border-radius: 0.75rem;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 160ms ease-out, transform 160ms ease-out, border 160ms ease-out;
+    }
+
+    .control-grid button:hover,
+    .control-grid button:focus-visible {
+      background: #eff6ff;
+      border-color: #bfdbfe;
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .control-grid button.is-selected {
+      background: #1d4ed8;
+      color: #ffffff;
+      border-color: #1d4ed8;
+      box-shadow: 0 10px 20px rgb(29 78 216 / 28%);
+    }
+
+    .control-grid button.is-dim {
+      opacity: 0.6;
+    }
+
+    @media (max-width: 720px) {
+      .interactive-wrapper {
+        padding-inline: clamp(0.75rem, 6vw, 1.5rem);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="interactive-wrapper">
+    <header class="figure-header">
+      <h1 id="interactive-heading">How SI Prefixes Scale a Base Unit</h1>
+      <p id="interactive-summary">Select a prefix or tap a bar in the chart to compare symbols, powers of ten, and decimal values from mega through nano.</p>
+    </header>
+
+    <div class="figure-panel">
+      <object
+        id="si-prefixes-diagram"
+        type="image/svg+xml"
+        data="../images/metric-prefixes.svg"
+        role="img"
+        aria-labelledby="interactive-heading interactive-summary">
+        <p>Your browser needs inline SVG support to view this interactive.</p>
+      </object>
+
+      <section class="details-card" aria-live="polite">
+        <h2 id="detail-heading">Prefix details</h2>
+        <dl class="details-grid">
+          <div>
+            <dt>Prefix</dt>
+            <dd id="detail-prefix">Base unit</dd>
+          </div>
+          <div>
+            <dt>Symbol</dt>
+            <dd id="detail-symbol">—</dd>
+          </div>
+          <div>
+            <dt>Power of ten</dt>
+            <dd id="detail-power">10<sup>0</sup></dd>
+          </div>
+          <div>
+            <dt>Decimal value</dt>
+            <dd id="detail-decimal">1</dd>
+          </div>
+        </dl>
+        <p class="details-description" id="detail-description">
+          The base unit has no prefix. It represents one whole unit such as 1 meter or 1 gram.
+        </p>
+      </section>
+    </div>
+
+    <div class="controls" aria-labelledby="controls-heading">
+      <span class="controls-label" id="controls-heading">Jump to a specific prefix</span>
+      <div class="control-grid" role="group" aria-describedby="controls-heading">
+        <button type="button" data-prefix="mega" aria-pressed="false">Mega (M)</button>
+        <button type="button" data-prefix="kilo" aria-pressed="false">Kilo (k)</button>
+        <button type="button" data-prefix="hecto" aria-pressed="false">Hecto (h)</button>
+        <button type="button" data-prefix="deca" aria-pressed="false">Deca (da)</button>
+        <button type="button" data-prefix="base" aria-pressed="true" class="is-selected">Base</button>
+        <button type="button" data-prefix="deci" aria-pressed="false">Deci (d)</button>
+        <button type="button" data-prefix="centi" aria-pressed="false">Centi (c)</button>
+        <button type="button" data-prefix="milli" aria-pressed="false">Milli (m)</button>
+        <button type="button" data-prefix="micro" aria-pressed="false">Micro (μ)</button>
+        <button type="button" data-prefix="nano" aria-pressed="false">Nano (n)</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const frame = window.frameElement;
+    const diagram = document.getElementById("si-prefixes-diagram");
+    const detailPrefix = document.getElementById("detail-prefix");
+    const detailSymbol = document.getElementById("detail-symbol");
+    const detailPower = document.getElementById("detail-power");
+    const detailDecimal = document.getElementById("detail-decimal");
+    const detailDescription = document.getElementById("detail-description");
+    const controlButtons = Array.from(
+      document.querySelectorAll(".control-grid button[data-prefix]")
+    );
+    const groupsByKey = new Map();
+    const backgroundByKey = new Map();
+
+    const PREFIX_DATA = [
+      {
+        key: "mega",
+        label: "Mega",
+        symbol: "M",
+        powerHTML: "10<sup>6</sup>",
+        decimal: "1,000,000",
+        description: "Mega multiplies the base unit by one million (1 000 000 × base). It is useful for very large measurements such as megawatts."
+      },
+      {
+        key: "kilo",
+        label: "Kilo",
+        symbol: "k",
+        powerHTML: "10<sup>3</sup>",
+        decimal: "1,000",
+        description: "Kilo multiplies the base unit by one thousand. Examples include kilometers, kilograms, and kilojoules."
+      },
+      {
+        key: "hecto",
+        label: "Hecto",
+        symbol: "h",
+        powerHTML: "10<sup>2</sup>",
+        decimal: "100",
+        description: "Hecto means one hundred times the base unit. It appears in measurements like hectopascals in atmospheric pressure."
+      },
+      {
+        key: "deca",
+        label: "Deca",
+        symbol: "da",
+        powerHTML: "10<sup>1</sup>",
+        decimal: "10",
+        description: "Deca scales the base by ten. It is less common but still officially recognized for quantities like decameters."
+      },
+      {
+        key: "base",
+        label: "Base",
+        symbol: "—",
+        powerHTML: "10<sup>0</sup>",
+        decimal: "1",
+        description: "The base unit has no prefix. A measurement such as meter (m) or gram (g) already represents the base value."
+      },
+      {
+        key: "deci",
+        label: "Deci",
+        symbol: "d",
+        powerHTML: "10<sup>-1</sup>",
+        decimal: "0.1",
+        description: "Deci divides the base unit by ten. A deciliter (dL) is one tenth of a liter."
+      },
+      {
+        key: "centi",
+        label: "Centi",
+        symbol: "c",
+        powerHTML: "10<sup>-2</sup>",
+        decimal: "0.01",
+        description: "Centi divides the base unit by one hundred. Centimeters (cm) are hundredths of a meter."
+      },
+      {
+        key: "milli",
+        label: "Milli",
+        symbol: "m",
+        powerHTML: "10<sup>-3</sup>",
+        decimal: "0.001",
+        description: "Milli divides the base unit by one thousand. Milliliters and milligrams are common milli-prefixed units."
+      },
+      {
+        key: "micro",
+        label: "Micro",
+        symbol: "μ",
+        powerHTML: "10<sup>-6</sup>",
+        decimal: "0.000001",
+        description: "Micro divides the base unit by one million. Micrograms (μg) and micrometers (μm) measure very small quantities."
+      },
+      {
+        key: "nano",
+        label: "Nano",
+        symbol: "n",
+        powerHTML: "10<sup>-9</sup>",
+        decimal: "0.000000001",
+        description: "Nano divides the base unit by one billion. Nanometers (nm) are used for atomic-scale measurements."
+      }
+    ];
+
+    const prefixByKey = new Map(PREFIX_DATA.map((entry) => [entry.key, entry]));
+    const detectPrefixKey = (group) => {
+      const text = group.textContent.toLowerCase();
+      if (text.includes("mega")) return "mega";
+      if (text.includes("kilo")) return "kilo";
+      if (text.includes("hecto")) return "hecto";
+      if (text.includes("deca")) return "deca";
+      if (text.includes("base")) return "base";
+      if (text.includes("deci")) return "deci";
+      if (text.includes("centi")) return "centi";
+      if (text.includes("milli")) return "milli";
+      if (text.includes("micro")) return "micro";
+      if (text.includes("nano")) return "nano";
+      return null;
+    };
+    const buttonByKey = new Map();
+    controlButtons.forEach((button) => {
+      const key = button.dataset.prefix;
+      buttonByKey.set(key, button);
+      button.addEventListener("click", () => {
+        setActivePrefix(key, { fromButton: true });
+      });
+      button.addEventListener("keydown", (event) => {
+        if (event.key === " " || event.key === "Enter") {
+          event.preventDefault();
+          setActivePrefix(key, { fromButton: true });
+        }
+      });
+    });
+
+    const fitParentFrame = () => {
+      if (!frame) {
+        return;
+      }
+      frame.style.width = "100%";
+      frame.style.maxWidth = "100%";
+      const doc = document.documentElement;
+      const body = document.body;
+      const height = Math.max(
+        body.scrollHeight,
+        doc.scrollHeight,
+        body.offsetHeight,
+        doc.offsetHeight
+      );
+      frame.style.height = `${height}px`;
+    };
+
+    let activeKey = "base";
+
+    const setActivePrefix = (key, { fromSvg = false } = {}) => {
+      if (!prefixByKey.has(key)) {
+        return;
+      }
+      activeKey = key;
+      const entry = prefixByKey.get(key);
+      const targetGroup = groupsByKey.get(key);
+      detailPrefix.textContent = entry.label === "Base" ? "Base unit" : entry.label;
+      detailSymbol.textContent = entry.symbol;
+      detailPower.innerHTML = entry.powerHTML;
+      detailDecimal.textContent = entry.decimal;
+      detailDescription.textContent = entry.description;
+
+      prefixByKey.forEach((_, prefixKey) => {
+        const group = groupsByKey.get(prefixKey);
+        if (!group) {
+          return;
+        }
+        const isTarget = prefixKey === key;
+        group.classList.toggle("is-active", isTarget);
+        group.classList.toggle("is-muted", !isTarget);
+      });
+
+      buttonByKey.forEach((button, buttonKey) => {
+        const isTarget = buttonKey === key;
+        button.classList.toggle("is-selected", isTarget);
+        button.classList.toggle("is-dim", !isTarget);
+        button.setAttribute("aria-pressed", isTarget ? "true" : "false");
+      });
+
+      if (targetGroup && fromSvg) {
+        targetGroup.focus({ preventScroll: true });
+      }
+
+      fitParentFrame();
+    };
+
+    const bootstrapSvg = () => {
+      const svgDoc = diagram.contentDocument;
+      if (!svgDoc) {
+        setActivePrefix(activeKey);
+        fitParentFrame();
+        return;
+      }
+
+      const svgRoot = svgDoc.documentElement;
+      if (svgRoot && !svgRoot.hasAttribute("preserveAspectRatio")) {
+        svgRoot.setAttribute("preserveAspectRatio", "xMidYMid meet");
+      }
+
+      groupsByKey.clear();
+      backgroundByKey.clear();
+
+      const styleNode = svgDoc.createElementNS("http://www.w3.org/2000/svg", "style");
+      styleNode.textContent = `
+        .FeatureGroup { transition: opacity 160ms ease-in-out; }
+        .FeatureGroup .prefix-highlight { opacity: 0; fill: rgba(15, 23, 42, 0.1); transition: opacity 160ms ease-in-out, fill 160ms ease-in-out; }
+        .FeatureGroup.is-muted .prefix-highlight { opacity: 1; fill: rgba(15, 23, 42, 0.14); }
+        .FeatureGroup.is-active .prefix-highlight { opacity: 1; fill: rgba(59, 130, 246, 0.24); }
+      `;
+      svgRoot.appendChild(styleNode);
+
+      const candidateGroups = Array.from(svgDoc.querySelectorAll(".FeatureGroup"));
+      const boundingByKey = new Map();
+      let columnMinY = Infinity;
+      let columnMaxY = -Infinity;
+      let minX = Infinity;
+      let maxX = -Infinity;
+
+      candidateGroups.forEach((group) => {
+        const key = detectPrefixKey(group);
+        if (!key || !prefixByKey.has(key) || groupsByKey.has(key)) {
+          return;
+        }
+        groupsByKey.set(key, group);
+        group.querySelectorAll(".prefix-highlight").forEach((node) => node.remove());
+        const bounds = group.getBBox();
+        if (!bounds) {
+          return;
+        }
+        boundingByKey.set(key, bounds);
+        columnMinY = Math.min(columnMinY, bounds.y);
+        columnMaxY = Math.max(columnMaxY, bounds.y + bounds.height);
+        minX = Math.min(minX, bounds.x);
+        maxX = Math.max(maxX, bounds.x + bounds.width);
+      });
+
+      if (columnMinY !== Infinity && columnMaxY !== -Infinity) {
+        const columnHeight = columnMaxY - columnMinY;
+        groupsByKey.forEach((group, key) => {
+          const bounds = boundingByKey.get(key);
+          if (!bounds) {
+            return;
+          }
+          const highlight = svgDoc.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "rect"
+          );
+          highlight.setAttribute("class", "prefix-highlight");
+          highlight.setAttribute("x", bounds.x);
+          highlight.setAttribute("y", columnMinY);
+          highlight.setAttribute("width", bounds.width);
+          highlight.setAttribute("height", columnHeight);
+          highlight.setAttribute("rx", Math.min(bounds.width * 0.22, 36));
+          group.insertBefore(highlight, group.firstChild);
+          backgroundByKey.set(key, highlight);
+        });
+      }
+
+      let viewBoxApplied = false;
+      const backgroundNode = svgDoc.getElementById("Back");
+      if (backgroundNode && typeof backgroundNode.getBBox === "function") {
+        try {
+          const backgroundBounds = backgroundNode.getBBox();
+          if (backgroundBounds.width > 0 && backgroundBounds.height > 0) {
+            svgRoot.setAttribute(
+              "viewBox",
+              `${backgroundBounds.x} ${backgroundBounds.y} ${backgroundBounds.width} ${backgroundBounds.height}`
+            );
+            viewBoxApplied = true;
+          }
+        } catch (error) {
+          console.warn("Unable to use background bounds for SI prefixes viewBox:", error);
+        }
+      }
+
+      if (
+        !viewBoxApplied &&
+        minX !== Infinity &&
+        maxX !== -Infinity &&
+        columnMinY !== Infinity &&
+        columnMaxY !== -Infinity
+      ) {
+        const width = maxX - minX;
+        const height = columnMaxY - columnMinY;
+        const leftMargin = Math.max(30, width * 0.06);
+        const rightMargin = Math.max(60, width * 0.1);
+        const marginY = Math.max(32, height * 0.08);
+        const viewMinX = minX - leftMargin;
+        const viewMinY = columnMinY - marginY;
+        const viewWidth = width + leftMargin + rightMargin;
+        const viewHeight = height + marginY * 2;
+        svgRoot.setAttribute(
+          "viewBox",
+          `${viewMinX} ${viewMinY} ${viewWidth} ${viewHeight}`
+        );
+        viewBoxApplied = true;
+      } else if (typeof svgRoot.getBBox === "function") {
+        try {
+          const box = svgRoot.getBBox();
+          svgRoot.setAttribute("viewBox", `${box.x} ${box.y} ${box.width} ${box.height}`);
+        } catch (error) {
+          console.warn("Unable to derive SI prefixes viewBox fallback:", error);
+        }
+      }
+
+      groupsByKey.forEach((group, key) => {
+        const entry = prefixByKey.get(key);
+        if (!entry) {
+          return;
+        }
+
+        group.setAttribute("role", "button");
+        group.setAttribute("tabindex", "0");
+        group.setAttribute("aria-label", `${entry.label} prefix`);
+
+        const handleActivate = () => setActivePrefix(key, { fromSvg: true });
+
+        group.addEventListener("click", (event) => {
+          event.preventDefault();
+          handleActivate();
+        });
+
+        group.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            handleActivate();
+          }
+        });
+
+        group.addEventListener("focus", () => {
+          setActivePrefix(key, { fromSvg: true });
+        });
+      });
+
+      setActivePrefix(activeKey);
+      fitParentFrame();
+    };
+
+    diagram.addEventListener("load", bootstrapSvg);
+
+    if (diagram.contentDocument) {
+      bootstrapSvg();
+    } else {
+      setActivePrefix(activeKey);
+      fitParentFrame();
+    }
+
+    window.addEventListener("resize", fitParentFrame);
+    document.addEventListener("DOMContentLoaded", fitParentFrame);
+  </script>
+</body>
+</html>
