@@ -20,8 +20,24 @@
         When taking a measurement, it is best to use a unit that is close in size to the item you are measuring.
         For example, if you want to measure the thickness of paper, it makes a lot more sense to report it as 100 micrometers rather than 0.0001 meters.
         This chart shows the prefixes and their meanings, including both the power of 10 and the full number.Note in the middle is the Base, which is ten to the power of 0, and equals one.For every step in either direction, you will do a calculation of the base times ten to the power.To the left of the base, 10 is raised to a positive exponent - these are larger numbers.To the right of the base, 10 is raised to a negative exponent - these are smaller numbers.
-        In the next section we will take a closer look at the prefixes "kilo" and "nano".
     </p>
+
+    <insight>
+        <title>Using the SI System</title>
+
+        <p>
+            The symbol for kilo is lowercase k.
+            One kilo unit equals the base unit times 10 to the 3rd power.
+            The "unit" of the base could be any of the SI units such as gram, meter, second, or mole.
+            For instance, 1 kilometer equals 10 to the third power, <m> 10^{3} </m>, or one thousand, meters.
+            Compared to a meter, a kilometer is very long.
+            It takes one thousand meters to make a kilometer.
+            Let's also look at a very small prefix.
+            The prefix nano uses the symbol lowercase n and one nano unit equals 10 to the negative 9 base units.
+            You could also think of it this way, <m> 10^{9} </m> nano units equals one base unit.
+            For example, <m>10^9</m> nanoseconds equals one second, so compared to a second, a nanosecond is incredibly short.
+        </p>
+    </insight>
 
     <p>
         Use the interactive chart below to explore how each prefix scales the base unit and to review the associated symbols, powers of ten, and decimal values.
