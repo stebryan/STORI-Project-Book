@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 739 155">
+<defs>
+<style>
+.cm-base{fill:none;stroke:#000;stroke-width:1.5px;stroke-linejoin:round;}
+.cm-block{fill:#3b82f6;stroke:#1e3a8a;stroke-width:0.5px;}
+.cm-label{font-family:OpenSans,'Open Sans',sans-serif;font-size:16px;fill:#0f172a;}
+</style>
+</defs>
+<g id="legend">
+<rect class="cm-block" x="509" y="5" width="6" height="40" />
+<text class="cm-label" x="525" y="31" dominant-baseline="middle">1 blue block = 1 cm</text>
+</g>
+<rect class="cm-base" x="18" y="58" width="703" height="44" rx="6" ry="6"/>
+<rect id="cm_1" data-segment="cm" class="cm-block" x="20.00" y="60" width="6" height="40" />
+<rect id="cm_2" data-segment="cm" class="cm-block" x="27.00" y="60" width="6" height="40" />
+<rect id="cm_3" data-segment="cm" class="cm-block" x="34.00" y="60" width="6" height="40" />
+<rect id="cm_4" data-segment="cm" class="cm-block" x="41.00" y="60" width="6" height="40" />
+<rect id="cm_5" data-segment="cm" class="cm-block" x="48.00" y="60" width="6" height="40" />
+<rect id="cm_6" data-segment="cm" class="cm-block" x="55.00" y="60" width="6" height="40" />
+<rect id="cm_7" data-segment="cm" class="cm-block" x="62.00" y="60" width="6" height="40" />
+<rect id="cm_8" data-segment="cm" class="cm-block" x="69.00" y="60" width="6" height="40" />
+<rect id="cm_9" data-segment="cm" class="cm-block" x="76.00" y="60" width="6" height="40" />
+<rect id="cm_10" data-segment="cm" class="cm-block" x="83.00" y="60" width="6" height="40" />
+<rect id="cm_11" data-segment="cm" class="cm-block" x="90.00" y="60" width="6" height="40" />
+<rect id="cm_12" data-segment="cm" class="cm-block" x="97.00" y="60" width="6" height="40" />
+<rect id="cm_13" data-segment="cm" class="cm-block" x="104.00" y="60" width="6" height="40" />
+<rect id="cm_14" data-segment="cm" class="cm-block" x="111.00" y="60" width="6" height="40" />
+<rect id="cm_15" data-segment="cm" class="cm-block" x="118.00" y="60" width="6" height="40" />
+<rect id="cm_16" data-segment="cm" class="cm-block" x="125.00" y="60" width="6" height="40" />
+<rect id="cm_17" data-segment="cm" class="cm-block" x="132.00" y="60" width="6" height="40" />
+<rect id="cm_18" data-segment="cm" class="cm-block" x="139.00" y="60" width="6" height="40" />
+<rect id="cm_19" data-segment="cm" class="cm-block" x="146.00" y="60" width="6" height="40" />
+<rect id="cm_20" data-segment="cm" class="cm-block" x="153.00" y="60" width="6" height="40" />
+<rect id="cm_21" data-segment="cm" class="cm-block" x="160.00" y="60" width="6" height="40" />
+<rect id="cm_22" data-segment="cm" class="cm-block" x="167.00" y="60" width="6" height="40" />
+<rect id="cm_23" data-segment="cm" class="cm-block" x="174.00" y="60" width="6" height="40" />
+<rect id="cm_24" data-segment="cm" class="cm-block" x="181.00" y="60" width="6" height="40" />
+<rect id="cm_25" data-segment="cm" class="cm-block" x="188.00" y="60" width="6" height="40" />
+<rect id="cm_26" data-segment="cm" class="cm-block" x="195.00" y="60" width="6" height="40" />
+<rect id="cm_27" data-segment="cm" class="cm-block" x="202.00" y="60" width="6" height="40" />
+<rect id="cm_28" data-segment="cm" class="cm-block" x="209.00" y="60" width="6" height="40" />
+<rect id="cm_29" data-segment="cm" class="cm-block" x="216.00" y="60" width="6" height="40" />
+<rect id="cm_30" data-segment="cm" class="cm-block" x="223.00" y="60" width="6" height="40" />
+<rect id="cm_31" data-segment="cm" class="cm-block" x="230.00" y="60" width="6" height="40" />
+<rect id="cm_32" data-segment="cm" class="cm-block" x="237.00" y="60" width="6" height="40" />
+<rect id="cm_33" data-segment="cm" class="cm-block" x="244.00" y="60" width="6" height="40" />
+<rect id="cm_34" data-segment="cm" class="cm-block" x="251.00" y="60" width="6" height="40" />
+<rect id="cm_35" data-segment="cm" class="cm-block" x="258.00" y="60" width="6" height="40" />
+<rect id="cm_36" data-segment="cm" class="cm-block" x="265.00" y="60" width="6" height="40" />
+<rect id="cm_37" data-segment="cm" class="cm-block" x="272.00" y="60" width="6" height="40" />
+<rect id="cm_38" data-segment="cm" class="cm-block" x="279.00" y="60" width="6" height="40" />
+<rect id="cm_39" data-segment="cm" class="cm-block" x="286.00" y="60" width="6" height="40" />
+<rect id="cm_40" data-segment="cm" class="cm-block" x="293.00" y="60" width="6" height="40" />
+<rect id="cm_41" data-segment="cm" class="cm-block" x="300.00" y="60" width="6" height="40" />
+<rect id="cm_42" data-segment="cm" class="cm-block" x="307.00" y="60" width="6" height="40" />
+<rect id="cm_43" data-segment="cm" class="cm-block" x="314.00" y="60" width="6" height="40" />
+<rect id="cm_44" data-segment="cm" class="cm-block" x="321.00" y="60" width="6" height="40" />
+<rect id="cm_45" data-segment="cm" class="cm-block" x="328.00" y="60" width="6" height="40" />
+<rect id="cm_46" data-segment="cm" class="cm-block" x="335.00" y="60" width="6" height="40" />
+<rect id="cm_47" data-segment="cm" class="cm-block" x="342.00" y="60" width="6" height="40" />
+<rect id="cm_48" data-segment="cm" class="cm-block" x="349.00" y="60" width="6" height="40" />
+<rect id="cm_49" data-segment="cm" class="cm-block" x="356.00" y="60" width="6" height="40" />
+<rect id="cm_50" data-segment="cm" class="cm-block" x="363.00" y="60" width="6" height="40" />
+<rect id="cm_51" data-segment="cm" class="cm-block" x="370.00" y="60" width="6" height="40" />
+<rect id="cm_52" data-segment="cm" class="cm-block" x="377.00" y="60" width="6" height="40" />
+<rect id="cm_53" data-segment="cm" class="cm-block" x="384.00" y="60" width="6" height="40" />
+<rect id="cm_54" data-segment="cm" class="cm-block" x="391.00" y="60" width="6" height="40" />
+<rect id="cm_55" data-segment="cm" class="cm-block" x="398.00" y="60" width="6" height="40" />
+<rect id="cm_56" data-segment="cm" class="cm-block" x="405.00" y="60" width="6" height="40" />
+<rect id="cm_57" data-segment="cm" class="cm-block" x="412.00" y="60" width="6" height="40" />
+<rect id="cm_58" data-segment="cm" class="cm-block" x="419.00" y="60" width="6" height="40" />
+<rect id="cm_59" data-segment="cm" class="cm-block" x="426.00" y="60" width="6" height="40" />
+<rect id="cm_60" data-segment="cm" class="cm-block" x="433.00" y="60" width="6" height="40" />
+<rect id="cm_61" data-segment="cm" class="cm-block" x="440.00" y="60" width="6" height="40" />
+<rect id="cm_62" data-segment="cm" class="cm-block" x="447.00" y="60" width="6" height="40" />
+<rect id="cm_63" data-segment="cm" class="cm-block" x="454.00" y="60" width="6" height="40" />
+<rect id="cm_64" data-segment="cm" class="cm-block" x="461.00" y="60" width="6" height="40" />
+<rect id="cm_65" data-segment="cm" class="cm-block" x="468.00" y="60" width="6" height="40" />
+<rect id="cm_66" data-segment="cm" class="cm-block" x="475.00" y="60" width="6" height="40" />
+<rect id="cm_67" data-segment="cm" class="cm-block" x="482.00" y="60" width="6" height="40" />
+<rect id="cm_68" data-segment="cm" class="cm-block" x="489.00" y="60" width="6" height="40" />
+<rect id="cm_69" data-segment="cm" class="cm-block" x="496.00" y="60" width="6" height="40" />
+<rect id="cm_70" data-segment="cm" class="cm-block" x="503.00" y="60" width="6" height="40" />
+<rect id="cm_71" data-segment="cm" class="cm-block" x="510.00" y="60" width="6" height="40" />
+<rect id="cm_72" data-segment="cm" class="cm-block" x="517.00" y="60" width="6" height="40" />
+<rect id="cm_73" data-segment="cm" class="cm-block" x="524.00" y="60" width="6" height="40" />
+<rect id="cm_74" data-segment="cm" class="cm-block" x="531.00" y="60" width="6" height="40" />
+<rect id="cm_75" data-segment="cm" class="cm-block" x="538.00" y="60" width="6" height="40" />
+<rect id="cm_76" data-segment="cm" class="cm-block" x="545.00" y="60" width="6" height="40" />
+<rect id="cm_77" data-segment="cm" class="cm-block" x="552.00" y="60" width="6" height="40" />
+<rect id="cm_78" data-segment="cm" class="cm-block" x="559.00" y="60" width="6" height="40" />
+<rect id="cm_79" data-segment="cm" class="cm-block" x="566.00" y="60" width="6" height="40" />
+<rect id="cm_80" data-segment="cm" class="cm-block" x="573.00" y="60" width="6" height="40" />
+<rect id="cm_81" data-segment="cm" class="cm-block" x="580.00" y="60" width="6" height="40" />
+<rect id="cm_82" data-segment="cm" class="cm-block" x="587.00" y="60" width="6" height="40" />
+<rect id="cm_83" data-segment="cm" class="cm-block" x="594.00" y="60" width="6" height="40" />
+<rect id="cm_84" data-segment="cm" class="cm-block" x="601.00" y="60" width="6" height="40" />
+<rect id="cm_85" data-segment="cm" class="cm-block" x="608.00" y="60" width="6" height="40" />
+<rect id="cm_86" data-segment="cm" class="cm-block" x="615.00" y="60" width="6" height="40" />
+<rect id="cm_87" data-segment="cm" class="cm-block" x="622.00" y="60" width="6" height="40" />
+<rect id="cm_88" data-segment="cm" class="cm-block" x="629.00" y="60" width="6" height="40" />
+<rect id="cm_89" data-segment="cm" class="cm-block" x="636.00" y="60" width="6" height="40" />
+<rect id="cm_90" data-segment="cm" class="cm-block" x="643.00" y="60" width="6" height="40" />
+<rect id="cm_91" data-segment="cm" class="cm-block" x="650.00" y="60" width="6" height="40" />
+<rect id="cm_92" data-segment="cm" class="cm-block" x="657.00" y="60" width="6" height="40" />
+<rect id="cm_93" data-segment="cm" class="cm-block" x="664.00" y="60" width="6" height="40" />
+<rect id="cm_94" data-segment="cm" class="cm-block" x="671.00" y="60" width="6" height="40" />
+<rect id="cm_95" data-segment="cm" class="cm-block" x="678.00" y="60" width="6" height="40" />
+<rect id="cm_96" data-segment="cm" class="cm-block" x="685.00" y="60" width="6" height="40" />
+<rect id="cm_97" data-segment="cm" class="cm-block" x="692.00" y="60" width="6" height="40" />
+<rect id="cm_98" data-segment="cm" class="cm-block" x="699.00" y="60" width="6" height="40" />
+<rect id="cm_99" data-segment="cm" class="cm-block" x="706.00" y="60" width="6" height="40" />
+<rect id="cm_100" data-segment="cm" class="cm-block" x="713.00" y="60" width="6" height="40" />
+<text class="cm-label" x="15" y="130">0 cm</text>
+<text class="cm-label" x="684" y="130">100 cm</text>
+</svg>
