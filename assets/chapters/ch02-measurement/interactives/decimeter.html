@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Decimeters to Meters Interactive</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+    }
+
+    body {
+      font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+      color: #0f172a;
+    }
+
+    .interactive-wrapper {
+      width: min(960px, 100%);
+      margin: 0 auto;
+      background: #f8fafc;
+      border-radius: 1rem;
+      padding: clamp(0.35rem, 1.6vw, 0.7rem) clamp(0.55rem, 2.2vw, 1.1rem);
+      display: block;
+    }
+
+    .figure-card {
+      background: #ffffff;
+      border-radius: 0.85rem;
+      box-shadow: 0 14px 32px rgb(15 23 42 / 10%);
+      padding-inline: clamp(0.7rem, 2vw, 1.1rem);
+      padding-block: clamp(0.55rem, 1.6vw, 0.9rem);
+      display: grid;
+      gap: 0.65rem;
+      margin: 0;
+    }
+
+    header.figure-header {
+      display: grid;
+      gap: 0.35rem;
+      text-align: center;
+    }
+
+    header.figure-header h1 {
+      margin: 0;
+      font-size: clamp(1.35rem, 2.6vw, 1.95rem);
+    }
+
+    header.figure-header p {
+      margin: 0;
+      color: #475569;
+      font-size: 1rem;
+    }
+
+    object#decimeter-graphic {
+      width: 100%;
+      max-width: 920px;
+      aspect-ratio: 16 / 5;
+      height: auto;
+      border: none;
+    }
+
+    .controls {
+      display: grid;
+      gap: 0.7rem;
+      background: #0f172a;
+      color: #f8fafc;
+      border-radius: 0.9rem;
+      padding-inline: clamp(0.9rem, 2.3vw, 1.3rem);
+      padding-block: clamp(0.75rem, 2vw, 1.1rem);
+    }
+
+    .controls label {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .slider-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    .conversion-output {
+      margin: 0;
+      font-size: clamp(1.15rem, 3vw, 1.6rem);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .conversion-output span.value {
+      display: inline-flex;
+      min-width: 2.6ch;
+      justify-content: center;
+    }
+
+    .conversion-output .highlight {
+      color: #fde047;
+    }
+
+    .helper-text {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #cbd5f5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="interactive-wrapper">
+    <div class="figure-card" role="group" aria-labelledby="decimeter-heading" aria-describedby="decimeter-summary">
+      <header class="figure-header">
+        <h1 id="decimeter-heading">See 10 Decimeters Inside One Meter</h1>
+        <p id="decimeter-summary">Move the slider to count decimeters along the bar and watch the meter equivalent
+          update instantly.</p>
+      </header>
+
+      <object id="decimeter-graphic" type="image/svg+xml" data="../images/decimeter.svg" role="img"
+        aria-labelledby="decimeter-heading decimeter-summary">
+        <p>Your browser needs inline SVG support to view this interactive.</p>
+      </object>
+
+      <section class="controls" aria-live="polite">
+        <div class="slider-row">
+          <label for="decimeter-range">Number of decimeters (dm)</label>
+          <input id="decimeter-range" type="range" min="1" max="10" value="10" step="1" />
+        </div>
+        <p class="conversion-output">
+          <span class="value" id="dm-count">10</span> dm =
+          <span class="value highlight" id="meter-value">1</span> m
+        </p>
+        <p class="helper-text" id="helper-text">A full 10 decimeters matches the entire meter bar.</p>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const slider = document.getElementById('decimeter-range');
+    const dmCount = document.getElementById('dm-count');
+    const meterValue = document.getElementById('meter-value');
+    const helperText = document.getElementById('helper-text');
+    const svgObject = document.getElementById('decimeter-graphic');
+
+    const blockIds = [
+      '_11_blue',
+      '_10_blue',
+      '_9_blue',
+      '_8_blue',
+      '_7_blue',
+      '_6_blue',
+      '_5_blue',
+      '_4_blue',
+      '_3_blue',
+      '_2_blue'
+    ];
+    const blockColors = {
+      active: '#4285f4',
+      inactive: '#dbeafe'
+    };
+    let decimeterBlocks = [];
+
+    const setBlockColor = (count) => {
+      if (!decimeterBlocks.length) {
+        return;
+      }
+
+      decimeterBlocks.forEach((segment, index) => {
+        const isActive = index < count;
+        segment.style.fill = isActive ? blockColors.active : blockColors.inactive;
+        segment.style.opacity = isActive ? 1 : 0.35;
+      });
+    };
+
+    const connectSvgBlocks = () => {
+      const svgDoc = svgObject?.contentDocument;
+      if (!svgDoc) {
+        return;
+      }
+
+      decimeterBlocks = blockIds
+        .map((id) => svgDoc.getElementById(id))
+        .filter(Boolean);
+
+      setBlockColor(Number(slider.value));
+    };
+
+    if (svgObject) {
+      svgObject.addEventListener('load', connectSvgBlocks);
+      if (svgObject.contentDocument) {
+        connectSvgBlocks();
+      }
+    }
+
+    const updateConversion = () => {
+      const dm = Number(slider.value);
+      const meters = dm / 10;
+      dmCount.textContent = dm.toString();
+      meterValue.textContent = meters.toFixed(meters % 1 === 0 ? 0 : 1);
+      setBlockColor(dm);
+      helperText.textContent =
+        dm === 10
+          ? 'A full 10 decimeters matches the entire meter bar.'
+          : `${dm} decimeter${dm === 1 ? '' : 's'} covers ${meters} meter${
+              meters === 1 ? '' : 's'
+            } of the stick.`;
+    };
+
+    slider.addEventListener('input', updateConversion);
+    window.addEventListener('load', updateConversion);
+  </script>
+</body>
+
+</html>

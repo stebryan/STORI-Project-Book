@@ -47,4 +47,6 @@
     <xi:include href="what-is-measurement.ptx" />
     <xi:include href="standardized-units.ptx" />
     <xi:include href="SIprefixes.ptx" />
+    <xi:include href="understanding-the-prefixes.ptx" />
+    <xi:include href="examples-metric-conversion.ptx" />
 </chapter>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-understanding-the-prefixes">
+    <title>Understanding The Prefixes</title>
+
+    <p>
+        Here is the same information from the previous chart organized in tables with examples.
+        Depending on what works for you, it may be easier to think of how many base units are in each prefix, or how many of those prefix units are in one base unit.
+        The column titled "Power of 10" shows how many base units are in each prefix.
+        While the column, titled "Alternatively" reverses the Power of 10 column and shows how many base units are in each prefix.
+        You may notice this transition is straightforward, owing to the fact the SI system is based on powers of 10.
+        The example column provides some context for these prefixes within real metric units, like 1 megabyte equals <m>10^6</m> (or 1,000,000) bytes.
+        It is still another 1000 megabytes to make one gigabyte, which is the measurement used for most cell phone data plans.
+        As was mentioned earlier, units are everything.
+        Without them a measurement would be useless.
+        Also remember, this is why it is important to pick a unit that is closest in size to the thing you're measuring.
+    </p>
+
+    <table xml:id="table-base-units">
+        <title>SI Prefix Powers of 10</title>
+
+        <tabular row-headers="yes" width="100%" halign="center" bottom="minor">
+            <col header="yes" width="28%"/> <col width="16%"/> <col width="56%"/>
+            <row>
+                <cell>Prefix</cell>
+                <cell>Symbol</cell>
+                <cell>Power of 10</cell>
+            </row>
+
+            <row>
+                <cell header="yes">mega-</cell>
+                <cell>M</cell>
+                <cell>1 mega unit = <m>10^6</m> base units</cell>
+            </row>
+
+            <row>
+                <cell header="yes">kilo-</cell>
+                <cell>k</cell>
+                <cell>1 kilo unit = <m>10^3</m> base units</cell>
+            </row>
+
+            <row>
+                <cell header="yes">deci-</cell>
+                <cell>d</cell>
+                <cell>1 deci unit = <m>10^{-1}</m> base units</cell>
+            </row>
+
+            <row>
+                <cell header="yes">centi-</cell>
+                <cell>c</cell>
+                <cell>1 centi unit = <m>10^{-2}</m> base units</cell>
+            </row>
+
+            <row>
+                <cell header="yes">milli-</cell>
+                <cell>m</cell>
+                <cell>1 milli unit = <m>10^{-3}</m> base units</cell>
+            </row>
+
+            <row>
+                <cell header="yes">micro-</cell>
+                <cell><m>\mu</m></cell>
+                <cell>1 micro unit = <m>10^{-6}</m> base units</cell>
+            </row>
+
+            <row>
+                <cell header="yes">nano-</cell>
+                <cell>n</cell>
+                <cell>1 nano unit = <m>10^{-9}</m> base units</cell>
+            </row>
+        </tabular>
+    </table>
+
+    <table xml:id="table-prefix-examples">
+        <title>SI Prefix Conversions and Examples</title>
+
+        <tabular row-headers="yes" width="100%" halign="center" bottom="minor">
+            <col header="yes" width="28%"/> <col width="34%"/> <col width="38%"/>
+            <row>
+                <cell>Prefix</cell>
+                <cell>Alternatively</cell>
+                <cell>Example</cell>
+            </row>
+
+            <row>
+                <cell header="yes">mega-</cell>
+                <cell>1,000,000 base units = 1 mega unit</cell>
+                <cell>1 MB = <m>10^6</m> bytes</cell>
+            </row>
+
+            <row>
+                <cell header="yes">kilo-</cell>
+                <cell>1,000 base units = 1 kilo unit</cell>
+                <cell>1 km = 1,000 m</cell>
+            </row>
+
+            <row>
+                <cell header="yes">deci-</cell>
+                <cell>10 deci units = 1 base unit</cell>
+                <cell>10 dm = 1 m</cell>
+            </row>
+
+            <row>
+                <cell header="yes">centi-</cell>
+                <cell>100 centi units = 1 base unit</cell>
+                <cell>100 cm = 1 m</cell>
+            </row>
+
+            <row>
+                <cell header="yes">milli-</cell>
+                <cell>1,000 milli units = 1 base unit</cell>
+                <cell>1,000 mmol = 1 mol</cell>
+            </row>
+
+            <row>
+                <cell header="yes">micro-</cell>
+                <cell><m>10^6</m> micro units = 1 base unit</cell>
+                <cell><m>10^6</m> micrograms = 1 g</cell>
+            </row>
+
+            <row>
+                <cell header="yes">nano-</cell>
+                <cell><m>10^9</m> nano units = 1 base unit</cell>
+                <cell><m>10^9</m> ns = 1 s</cell>
+            </row>
+        </tabular>
+    </table>
+</section>

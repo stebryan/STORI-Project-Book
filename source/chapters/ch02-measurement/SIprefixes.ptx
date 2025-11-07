@@ -5,7 +5,8 @@
 
     <p>
         Now that we have our base units we can talk about bigger and smaller units.
-        All units in the SI system are related to the base unit by a power of 10.The power of 10 is indicated by a prefix that is added before the unit.For example, using this system, we can recognize that there are 1000 millimeters in a meter, where milli is the prefix meaning 1000.
+        All units in the SI system are related to the base unit by a power of 10.
+        The power of 10 is indicated by a prefix that is added before the unit.For example, using this system, we can recognize that there are 1000 millimeters in a meter, where milli is the prefix meaning 1000.
         Similarly, you could also say that there is 0.001, or one thousandth of a meter in a millimeter.
     </p>
 
@@ -19,7 +20,10 @@
     <p>
         When taking a measurement, it is best to use a unit that is close in size to the item you are measuring.
         For example, if you want to measure the thickness of paper, it makes a lot more sense to report it as 100 micrometers rather than 0.0001 meters.
-        This chart shows the prefixes and their meanings, including both the power of 10 and the full number.Note in the middle is the Base, which is ten to the power of 0, and equals one.For every step in either direction, you will do a calculation of the base times ten to the power.To the left of the base, 10 is raised to a positive exponent - these are larger numbers.To the right of the base, 10 is raised to a negative exponent - these are smaller numbers.
+        This chart shows the prefixes and their meanings, including both the power of 10 and the full number.
+        Note in the middle is the Base, which is <m>10^0</m>, and equals one.For every step in either direction, you will do a calculation of the base times ten to the power.
+        To the left of the base, 10 is raised to a positive exponent - these are larger numbers.
+        To the right of the base, 10 is raised to a negative exponent - these are smaller numbers.
     </p>
 
     <insight>

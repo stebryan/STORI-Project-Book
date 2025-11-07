@@ -5,7 +5,7 @@
 
     <p> A <term>law</term> is a concise verbal or mathematical statement of a behavior or relation that always seems to be the same under the same conditions. A <term>theory</term> is a well-tested, unifying principle that explains a body of facts and the laws based on them. Essentially a law is the "what" and a theory is the "why". A few examples of laws include: Charles' Law, which is the relationship between temperature and pressure in gasses and the Law of Gravity. A few examples of theories include: Einstein's Theory of Relativity, Valence Bond Theory, and Kinetic Molecular Theory. Let's compare a few laws and theories to help better understand the difference between the two. </p>
 
-    <table xml:id="table-law-theory">
+    <table xml:id="table-law-theory" width="device">
   <title>Theory vs. Law</title>
   <tabular row-headers="yes"
            halign="center"
