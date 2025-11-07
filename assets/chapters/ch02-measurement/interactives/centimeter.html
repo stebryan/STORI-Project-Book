@@ -28,7 +28,7 @@
     }
 
     .interactive-wrapper {
-      width: min(960px, 100%);
+      width: clamp(320px, 92vw, 960px);
       margin: 0 auto;
       background: #f8fafc;
       border-radius: 1rem;
@@ -65,8 +65,8 @@
     }
 
     object#centimeter-graphic {
-      width: 100%;
-      max-width: 920px;
+      width: min(100%, 920px);
+      min-width: 320px;
       aspect-ratio: 16 / 5;
       height: auto;
       border: none;

@@ -12,6 +12,9 @@
             Each smaller bar represents one decimeter.
             If you wanted, you could just count and see that 10 decimeters, fit in a meter.
         </p>
+
+        <p>
+        </p>
         <interactive xml:id="interactive-decimeter-meter" iframe="chapters/ch02-measurement/interactives/decimeter.html" height="460">
         <title>Interactive: Count the Decimeters in One Meter</title>
 
@@ -27,6 +30,9 @@
             The second bar is still one meter long—this time divided into 100 equal centimeter blocks.
             Just like before, you can count all the blocks to see that 100 centimeters fit exactly into one meter.
         </p>
+
+        <p>
+        </p>
         <interactive xml:id="interactive-centimeter-meter" iframe="chapters/ch02-measurement/interactives/centimeter.html" height="460">
         <title>Interactive: Count the Centimeters in One Meter</title>
 
@@ -41,6 +47,9 @@
             Finally, zoom in even further by looking at millimeters on that same meter stick.
             This bar is broken into 1,000 millimeter slices.
             Slide through them to see that filling all 1,000 millimeters still lines up with one full meter.
+        </p>
+
+        <p>
         </p>
         <interactive xml:id="interactive-millimeter-meter" iframe="chapters/ch02-measurement/interactives/millimeter.html" height="460">
         <title>Interactive: Count the Millimeters in One Meter</title>
