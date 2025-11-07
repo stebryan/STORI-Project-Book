@@ -16,26 +16,35 @@
         <title>Interactive: Count the Decimeters in One Meter</title>
 
         </interactive>
-
-        <p>
-            Drag the slider in the interactive to count how many decimeters you are stacking along the meter stick.
-            When the slider reaches 10, the graphic shows the entire meter filled, reinforcing that 10 decimeters equals 1 meter.
-        </p>
-
-        <p>
-            But let's write out the equations.
-            Therefore, one decimeter equals one tenth of a meter.
-            Or you could say that one decimeter equals 1 times 10 to the negative 1 meter.
-            You could also say that one meter equals 10 decimeters.
-        </p>
     </subsection>
 
 
     <subsection xml:id="example2">
-        <title>A Chemical Example of the Scientific Method</title>
+        <title>Centimeters to Meters</title>
 
         <p>
-            Placeholder
+            Let's keep using the same meter stick, but now focus on centimeters.
+            The second bar is still one meter long—this time divided into 100 equal centimeter blocks.
+            Just like before, you can count all the blocks to see that 100 centimeters fit exactly into one meter.
         </p>
+        <interactive xml:id="interactive-centimeter-meter" iframe="chapters/ch02-measurement/interactives/centimeter.html" height="460">
+        <title>Interactive: Count the Centimeters in One Meter</title>
+
+        </interactive>
+    </subsection>
+
+
+    <subsection xml:id="example3">
+        <title>Millimeters to Meters</title>
+
+        <p>
+            Finally, zoom in even further by looking at millimeters on that same meter stick.
+            This bar is broken into 1,000 millimeter slices.
+            Slide through them to see that filling all 1,000 millimeters still lines up with one full meter.
+        </p>
+        <interactive xml:id="interactive-millimeter-meter" iframe="chapters/ch02-measurement/interactives/millimeter.html" height="460">
+        <title>Interactive: Count the Millimeters in One Meter</title>
+
+        </interactive>
     </subsection>
 </section>
