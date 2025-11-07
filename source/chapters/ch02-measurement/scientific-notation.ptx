@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-scientific-notation">
+    <title>Very Large and Very Small Numbers</title>
+
+    <figure xml:id="big-and-small">
+        <image source="chapters/ch02-measurement/images/verylargeandverysmall.jpg" width="60%" >
+            <description>
+                A large goldfish next to a small goldfish
+            </description>
+        </image>
+        <caption>In chemistry, we need to use both very large and very small numbers. </caption>
+    </figure>
+
+    <p>
+        Often in science, especially chemistry, we encounter very large or very small numbers.
+        for example, One penny contains 29,500,000,000,000,000,000,000 copper atoms.
+        When trying to read how many copper atoms are in a penny, we are likely to make a mistake with all of those zeros.
+        The same is true for the mass in grams of 1 copper atom which is 0.000000000000000000000104 grams.
+        The way these numbers are written, with all the zeros, is called standard notation.
+        However, it is easier to write, read, and understand these numbers if they are put in scientific notation.
+        Compare those long numbers to what they sound like in scientific notation.
+        One penny contains <m>2.95\times10^{22}</m> copper atoms.
+        One copper atom weighs <m>1.04\times10^{-22}</m> grams.
+    </p>
+
+
+    <subsection xml:id="subsec-scientific-notation">
+        <title>A Closer Look at Scientific Notation</title>
+
+        <figure xml:id="number-in-scientific-notation">
+            <image source="chapters/ch02-measurement/images/decimalexponentparts.png" width="60%" >
+                <description>
+                    A number in scientific notation
+                </description>
+            </image>
+            <caption>A number in scientific notation has two parts: the cofficient and the exponent.</caption>
+        </figure>
+
+        <p>
+            A number in scientific notation has a coefficient part and an exponent part.
+            The exponent, or power, part tells us whether the number is very small or very big.When the exponent is positive, the number is very big.When the exponent is negative, the number is very small.
+            The exponent part also tells us how many zeros the number has.
+            The coefficient part is the number 2.46.
+            Since there are three digits to this part, it is said to have three significant digits.
+            Just make a mental note of this for now.
+            There will be more on significant digits later.
+            Note also where the decimal point is placed because on the next slide you will learn how to convert a number into a scientific notation like this one, and the placement of the decimal point is one of the most important parts.
+        </p>
+    </subsection>
+</section>

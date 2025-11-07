@@ -49,4 +49,7 @@
     <xi:include href="SIprefixes.ptx" />
     <xi:include href="understanding-the-prefixes.ptx" />
     <xi:include href="examples-metric-conversion.ptx" />
+    <xi:include href="knowledge-check3.ptx" />
+    <xi:include href="scientific-notation.ptx" />
+    <xi:include href="converting-to-sci-notation.ptx" />
 </chapter>

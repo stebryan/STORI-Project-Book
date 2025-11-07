@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-converting-to-sci-notation">
+    <title>Converting a Number to Scientific Noation</title>
+
+    <p>
+        Here are the steps to convert a number in standard notation to scientific notation.
+        <ol>
+            <li>
+                <p>
+                    When you are looking at a number in standard notation, first, find the decimal point.
+                    In the case of the number 5983 kg, it comes after the 3.
+                    Typically, you don't write the decimal on a whole number, but we've included it here to make it clear where the decimal would be.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Next we move the decimal point to obtain a number between 1 and 10.
+                    You want only one digit to be to the left of the decimal point.
+                    So let's move the decimal point to just after the five in our example.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Every time we move the decimal point, we change the power of 10 by one.
+                    If we move the decimal point to the left the exponent is positive, and if we move the decimal to the right the exponent is negative.
+                    The full statement in our example then becomes 5.983 times 10 to the third power.
+                    We multiply that number by 10 to the nth power, where n is the same number of places you moved the decimal point.
+                </p>
+            </li>
+        </ol>
+    </p>
+
+    <figure xml:id="sci-conversion">
+        <image source="chapters/ch02-measurement/images/2437sciconversion.gif" width="60%" >
+            <description>
+                The process of converting 2437 to scientific notation invloves moving the decimal behind the 2 and adding the exponent part of 10 to the third.
+            </description>
+        </image>
+        <caption>The process of converting a number into scientific notation involves moving a decimal to make the coefficient number between 1 and 10 and adding an exponent part to account for this shift. </caption>
+    </figure>
+
+    <p>
+        Let's look at another example.
+    </p>
+
+    <figure xml:id="sci-conversion2">
+        <image source="chapters/ch02-measurement/images/0.0053conversion.gif" width="60%" >
+            <description>
+                The process of converting 0.0053 to scientific notation invloves moving the decimal behind the 5 and adding the exponent part of 10 to the negative third.
+            </description>
+        </image>
+        <caption>An example that involves a negative exponent. </caption>
+    </figure>
+</section>
