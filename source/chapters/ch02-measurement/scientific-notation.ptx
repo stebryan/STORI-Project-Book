@@ -3,26 +3,28 @@
 <section xml:id="sec-scientific-notation">
     <title>Very Large and Very Small Numbers</title>
 
-    <figure xml:id="big-and-small">
-        <image source="chapters/ch02-measurement/images/verylargeandverysmall.jpg" width="60%" >
-            <description>
-                A large goldfish next to a small goldfish
-            </description>
-        </image>
-        <caption>In chemistry, we need to use both very large and very small numbers. </caption>
-    </figure>
+    <introduction>
+        <figure xml:id="big-and-small">
+            <image source="chapters/ch02-measurement/images/verylargeandverysmall.jpg" width="60%" >
+                <description>
+                    A large goldfish next to a small goldfish
+                </description>
+            </image>
+            <caption>In chemistry, we need to use both very large and very small numbers. </caption>
+        </figure>
 
-    <p>
-        Often in science, especially chemistry, we encounter very large or very small numbers.
-        for example, One penny contains 29,500,000,000,000,000,000,000 copper atoms.
-        When trying to read how many copper atoms are in a penny, we are likely to make a mistake with all of those zeros.
-        The same is true for the mass in grams of 1 copper atom which is 0.000000000000000000000104 grams.
-        The way these numbers are written, with all the zeros, is called standard notation.
-        However, it is easier to write, read, and understand these numbers if they are put in scientific notation.
-        Compare those long numbers to what they sound like in scientific notation.
-        One penny contains <m>2.95\times10^{22}</m> copper atoms.
-        One copper atom weighs <m>1.04\times10^{-22}</m> grams.
-    </p>
+        <p>
+            Often in science, especially chemistry, we encounter very large or very small numbers.
+            for example, One penny contains 29,500,000,000,000,000,000,000 copper atoms.
+            When trying to read how many copper atoms are in a penny, we are likely to make a mistake with all of those zeros.
+            The same is true for the mass in grams of 1 copper atom which is 0.000000000000000000000104 grams.
+            The way these numbers are written, with all the zeros, is called standard notation.
+            However, it is easier to write, read, and understand these numbers if they are put in scientific notation.
+            Compare those long numbers to what they sound like in scientific notation.
+            One penny contains <m>2.95\times10^{22}</m> copper atoms.
+            One copper atom weighs <m>1.04\times10^{-22}</m> grams.
+        </p>
+    </introduction>
 
 
     <subsection xml:id="subsec-scientific-notation">

@@ -52,4 +52,7 @@
     <xi:include href="knowledge-check3.ptx" />
     <xi:include href="scientific-notation.ptx" />
     <xi:include href="converting-to-sci-notation.ptx" />
+    <xi:include href="exponents.ptx" />
+    <xi:include href="knowledge-check4.ptx" />
+    <xi:include href="calculator-exponents.ptx" />
 </chapter>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="knowledge-check4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Check Your Knowledge</title>
+
+    <p>
+        Work through the interactive problems below to check your understanding of the concepts in the previous sections.
+    </p>
+
+    <exercises>
+    <exercise number="Exercise 2.4">
+        <webwork source="chem-library/setCH151_LearningChecks/module2-2a.pg" />
+        </exercise>
+
+        <exercise number="Exercise 2.5">
+            <webwork source="chem-library/setCH151_LearningChecks/module2-2b.pg" />
+            </exercise>
+
+            <exercise number="Exercise 2.6">
+                <webwork source="chem-library/setCH151_LearningChecks/module2-2c.pg" />
+                </exercise>
+                </exercises>
+            </section>

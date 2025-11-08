@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-calculator-exponents">
+  <title>Using the Exponent Key on a Calculator</title>
+
+  <figure xml:id="calculator">
+    <image source="chapters/ch02-measurement/images/calculator.jpg" width="60%" >
+      <description>
+        the EE button on a calculator is circled in red.
+      </description>
+    </image>
+    <caption>Finding the exponent button on your calculator is important. Ask your instructor for help if you need to before any exams or quizzes.</caption>
+  </figure>
+
+  <p>
+    It is important to know how to find and use the exponent key on your calculator.
+    Different calculators have different methods for turning exponential mode on and off.
+    Many calculators use a double capital EE or sometimes a single capital E or the abbreviation EXP.
+    Be sure you are familiar with the exponent key on your calculator before a quiz or exam.
+    To be ready, you may want to search the instruction manual for your particular calculator.
+    You can also ask your instructor for help, however NOT during a quiz or exam.
+  </p>
+
+  <p>
+    Let's look at the following problem:
+    <me>
+      \frac{1.2\times10^5}{28\times10^{13}}
+    </me>
+  </p>
+
+  <p>
+    These keystrokes in this order should ensure you get the correct answer when using the exponent key on your calculator.
+    Try them now.
+    The arrows are used here to mean "then press" and are not representative of a button on your calculator.Press the 1 button on your calculator, then press the decimal point button, then press the 2 button....and so on.
+  </p>
+  <me>
+    1\rightarrow.\rightarrow2\rightarrow\text{EE}\rightarrow5\rightarrow\div\rightarrow28\rightarrow\text{EE}\rightarrow13\rightarrow=
+  </me>
+
+  <p>
+    The display on your calculater should be 4.2857143 E-10.
+    This is the way calculators display scientific notation.
+    In order to use the answer you have to interpret it.
+    We will talk about how to round and where to round later.
+    You should always write the scientific notation out as a power of ten and not use calculator notation.
+    The final answer to this problem would then be <m>4.3\times10^{-10}</m>.
+  </p>
+
+  <p>
+    If you do not get the correct answer, then you are not using your exponent key correctly.
+    Remember your exponent button may not be EE.
+    It could also be EXP or something else.
+  </p>
+</section>

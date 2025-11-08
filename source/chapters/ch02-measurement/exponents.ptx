@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exponents">
+    <title>Exponents in Scientific Notation</title>
+
+    <introduction>
+        What do the exponents in scientific notation actually mean? Can we do the reverse from the examples in the previous sections, and put scientific notation into standard notation?
+    </introduction>
+
+
+    <subsection xml:id="subsec-positive-exponents">
+        <title>Positive Exponents</title>
+
+        <p>
+            Let's look closer at the exponent part of scientific notation using the following interactive.
+            Notice how 10 to the 0 equals 1, since any number to the zeroth power equals 1.
+            Zero is neither positive nor negative, so it has its own rule.However, a positive exponent means one times 10 "n" times, n being the number in the exponent.
+            10 to the 1 means one times 10, which equals 10 in standard notation.
+            10 to the 2 means one times 10 times another 10, or 100.
+            10 to the 3 means one times 10 times another 10 times another 10, or 1000.0.
+        </p>
+        <interactive xml:id="interactive-positive-exponents" iframe="chapters/ch02-measurement/interactives/positive-exponents.html" height="380">
+        <title>Interactive: Explore Positive Powers of Ten</title>
+
+        </interactive>
+    </subsection>
+
+
+    <subsection xml:id="subsec-negative-exponents">
+        <title>Negative Exponents</title>
+
+        <p>
+            Negative exponents do the opposite of positive ones.
+            Instead of multiplying by 10 over and over, you keep dividing by 10, which moves the decimal point to the left.
+            <m>10^{-1}=0.1</m> because you divide 1 by 10 once, and <m>10^{-4}=0.0001</m> because you divide by 10 four times.
+            Use the interactive to see how each additional negative power shrinks the number.
+        </p>
+        <interactive xml:id="interactive-negative-exponents" iframe="chapters/ch02-measurement/interactives/negative-exponents.html" height="380">
+        <title>Interactive: Explore Negative Powers of Ten</title>
+
+        </interactive>
+    </subsection>
+</section>
