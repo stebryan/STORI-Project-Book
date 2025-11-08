@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Negative Powers of Ten</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+      background: transparent;
+      color: #0f172a;
+    }
+
+    .canvas {
+      width: min(600px, 100%);
+      margin: 0 auto;
+      border-radius: 1rem;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: min(560px, 100%);
+      padding: clamp(0.9rem, 2vw, 1.25rem);
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+    }
+
+    header p {
+      margin: 0.2rem 0 0;
+      color: #475569;
+      font-size: 0.95rem;
+    }
+
+    .slider-row {
+      display: grid;
+      gap: 0.4rem;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    .equation {
+      font-size: clamp(1.05rem, 3.5vw, 1.6rem);
+      font-weight: 600;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .standard-value {
+      margin: 0;
+      text-align: center;
+      font-size: 1rem;
+      color: #ec4899;
+      font-weight: 600;
+    }
+
+    .explanation {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #475569;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="canvas">
+    <div class="card" role="group" aria-labelledby="neg-powers-heading" aria-live="polite">
+      <header>
+        <h1 id="neg-powers-heading">See What Negative Exponents Do</h1>
+        <p>Each step divides by another ten.</p>
+      </header>
+
+      <div class="slider-row">
+        <label for="neg-exponent-range">Exponent <span id="neg-exponent-label">0</span></label>
+        <input id="neg-exponent-range" type="range" min="0" max="6" value="0" step="1">
+      </div>
+
+      <p class="equation" id="neg-equation-display">1 × 10<sup>0</sup> = 1</p>
+      <p class="standard-value" id="neg-standard-display">Standard form: 1</p>
+      <p class="explanation" id="neg-explanation-text">Zero exponents keep the value at 1.</p>
+    </div>
+  </div>
+
+  <script>
+    const slider = document.getElementById('neg-exponent-range');
+    const exponentLabel = document.getElementById('neg-exponent-label');
+    const equationDisplay = document.getElementById('neg-equation-display');
+    const standardDisplay = document.getElementById('neg-standard-display');
+    const explanationText = document.getElementById('neg-explanation-text');
+
+    const buildDivision = (steps) => {
+      if (steps === 0) {
+        return '1';
+      }
+      return ['1', ...Array(steps).fill('÷ 10')].join(' ');
+    };
+
+    const formatStandard = (steps) => {
+      if (steps === 0) {
+        return '1';
+      }
+      return (10 ** (-steps)).toLocaleString('en-US', {
+        minimumFractionDigits: steps,
+        useGrouping: false
+      });
+    };
+
+    const updateView = () => {
+      const steps = Number(slider.value);
+      const exponent = -steps;
+      exponentLabel.textContent = exponent.toString();
+      const repeated = buildDivision(steps);
+      const power = `10<sup>${exponent}</sup>`;
+      const standard = formatStandard(steps);
+      equationDisplay.innerHTML = `1 × ${power} = ${repeated} = ${standard}`;
+      standardDisplay.textContent = `Standard form: ${standard}`;
+      explanationText.textContent =
+        steps === 0
+          ? 'Zero exponents keep the value at 1.'
+          : `You divide by ten ${steps} time${steps === 1 ? '' : 's'} to get ${standard}.`;
+    };
+
+    slider.addEventListener('input', updateView);
+    window.addEventListener('load', updateView);
+  </script>
+</body>
+
+</html>

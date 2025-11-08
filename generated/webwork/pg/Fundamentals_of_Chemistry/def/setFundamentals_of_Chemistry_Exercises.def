@@ -25,3 +25,27 @@ problem_start
 source_file = chem-library/setCH151_LearningChecks/module1-4.pg
 problem_id = Exercise 1.5
 problem_end
+problem_start
+source_file = chem-library/setCH151_LearningChecks/module2-1a.pg
+problem_id = Exercise 2.1
+problem_end
+problem_start
+source_file = chem-library/setCH151_LearningChecks/module2-1b.pg
+problem_id = Exercise 2.2
+problem_end
+problem_start
+source_file = chem-library/setCH151_LearningChecks/module2-1c.pg
+problem_id = Exercise 2.3
+problem_end
+problem_start
+source_file = chem-library/setCH151_LearningChecks/module2-2a.pg
+problem_id = Exercise 2.4
+problem_end
+problem_start
+source_file = chem-library/setCH151_LearningChecks/module2-2b.pg
+problem_id = Exercise 2.5
+problem_end
+problem_start
+source_file = chem-library/setCH151_LearningChecks/module2-2c.pg
+problem_id = Exercise 2.6
+problem_end

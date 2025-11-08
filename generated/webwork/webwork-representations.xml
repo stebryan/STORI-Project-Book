@@ -369,4 +369,380 @@ Qualitative vs Quantitative</p>
     <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module1-4.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="chem-library/setCH151_LearningChecks/module1-4.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6" source="chem-library/setCH151_LearningChecks/module2-1a.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Standard SI Units</p>
+<p><em>What is the standard SI unit for each of the following measures from which all other units can be derived:</em></p>
+<p><ol label="1.">
+<li>
+<p>Length           <fillin characters="14" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p>Mass             <fillin characters="14" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p>Time             <fillin characters="14" name="AnSwEr0003"/></p>
+</li>
+<li>
+<p>Temperature      <fillin characters="14" name="AnSwEr0004"/></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>{\text{meter}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\text{kilogram}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\text{second}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\text{Kelvin}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module2-1a.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module2-1a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7" source="chem-library/setCH151_LearningChecks/module2-1b.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Metric Equalities</p>
+<p><em>Answer the True/False Questions.</em></p>
+<p><ol label="1.">
+<li>
+<p>A kilogram is larger than a gram. <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>true</p>
+</li><li>
+<p>false</p>
+</li></ul></p>
+</li>
+<li>
+<p>A meter is smaller than a millimeter. <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>true</p>
+</li><li>
+<p>false</p>
+</li></ul></p>
+</li>
+<li>
+<p>There are <m>\displaystyle{10^{-3}}</m> L in 1 mL. <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>true</p>
+</li><li>
+<p>false</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>\text{true}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{false}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{true}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module2-1b.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module2-1b.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8" source="chem-library/setCH151_LearningChecks/module2-1c.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Metric Equalities</p>
+<p><em>Fill in numbers with units that make the equality underneath true.</em></p>
+<p><ol label="1.">
+<li>
+<p>Write an equality that shows the relationship between kilograms and grams.  For  example one way to answer to this question would be 1000 g = 1 kg.  Can you think of any other? (Hint: reformat 1000 as a power of 10.)</p>
+<p><fillin characters="10" name="AnSwEr0001"/> = <fillin characters="10" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p>Write an equality that shows the relationship between a meter (m) and a millimeter (mm).</p>
+<p><fillin characters="10" name="AnSwEr0003"/> = <fillin characters="10" name="AnSwEr0004"/></p>
+</li>
+<li>
+<p>Write an equality that shows the relationship between a liter (L) and a millilter (mL).</p>
+<p><fillin characters="10" name="AnSwEr0005"/> = <fillin characters="10" name="AnSwEr0006"/></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>1000\ {\rm g}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1\ {\rm kg}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1000\ {\rm mm}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1\ {\rm m}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1000\ {\rm mL}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1\ {\rm L}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module2-1c.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module2-1c.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9" source="chem-library/setCH151_LearningChecks/module2-2a.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Scientific Notation</p>
+<p><em>Answer the True/False Questions.</em></p>
+<p><ol label="1.">
+<li>
+<p>Chemist generally find it convenient to write very large and very small numbers in scientific notation. <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>true</p>
+</li><li>
+<p>false</p>
+</li></ul></p>
+</li>
+<li>
+<p>Numbers written in scientific notation will always contain 1 digit to the right of the decimal place. <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>true</p>
+</li><li>
+<p>false</p>
+</li></ul></p>
+</li>
+<li>
+<p>Scientific calculators contain special key(s) to help input numbers in scientific notation. <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>true</p>
+</li><li>
+<p>false</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review this material, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>\text{true}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{false}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{true}</m>
+        </p>
+      </answer>
+      <solution><p><ol label="1.">
+<li>
+<p>This is true.  Chemists generally find it inconvenient to use standard notation to write very large and very small numbers! Using scientific notation simplifies writing these numbers.</p>
+</li>
+<li>
+<p>This is false. There will always be one digit to the left of the decimal but not necessarily to the right.</p>
+</li>
+<li>
+<p>This is true. Scientific calculators are designed to used scientfiic notiaton! Using the built-in functions included on your calculator will simplify woking with the calculator and reduce the likelihood of calculator errors.</p>
+</li>
+</ol></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module2-2a.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module2-2a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10" source="chem-library/setCH151_LearningChecks/module2-2b.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Standard Notation</p>
+<p><em>Write the following numbers in standard decimal notation.</em></p>
+<p><ol label="a.">
+<li>
+<p><m>\displaystyle{3.405 \times 10^{3}}</m> <fillin characters="4" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p><m>\displaystyle{4.43 \times 10^{-4}}</m> <fillin characters="4" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p><m>\displaystyle{3.40001 \times 10^{4}}</m> <fillin characters="4" name="AnSwEr0003"/></p>
+</li>
+<li>
+<p><m>\displaystyle{4.3875 \times 10^{4}}</m> <fillin characters="4" name="AnSwEr0004"/></p>
+</li>
+<li>
+<p><m>\displaystyle{5.6 \times 10^{4}}</m> <fillin characters="4" name="AnSwEr0005"/></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review the rules of writing standard notation, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>3405</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.000443</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>34000.1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>43875</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>56000</m>
+        </p>
+      </answer>
+      <solution><p><ol label="a.">
+<li>
+<p><m>\displaystyle{3.405 \times 10^{3}}</m> is written as 3405. The positive 3 means that the decimal is moved 3 spaces to make the number larger.</p>
+</li>
+<li>
+<p><m>\displaystyle{4.43 \times 10^{-4}}</m> is written as 0.000443. The negative 4 means that the decimal is moved 4 spaces to make the number smaller. If the decimal is moved past spaces that have no numbers fill these digits in with zeros.</p>
+</li>
+<li>
+<p><m>\displaystyle{3.40001 \times 10^{4}}</m> is written as 34000.1. The positive 4 means that the decimal is moved 4 spaces to make the number larger.</p>
+</li>
+<li>
+<p><m>\displaystyle{4.3875 \times 10^{4}}</m> is written as 43875. The positive 4 means that the decimal is moved 4 spaces to make the number larger.</p>
+</li>
+<li>
+<p><m>\displaystyle{5.6 \times 10^{4}}</m> is written as 56000. The positive 4 means that the decimal is moved 4 spaces to make the number larger.  If the decimal is moved past spaces that have no numbers fill these digits in with zeros.</p>
+</li>
+</ol></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module2-2b.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module2-2b.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11" source="chem-library/setCH151_LearningChecks/module2-2c.pg">
+      <statement><!-- PTX:WARNING: PGML wanted to make this a level 2 header. -->
+<p>
+Scientific Notation</p>
+<p><em>Write each of the following numbers in scientific notation. Remember that scientific notation is entered as <lq/>x10^<rq/> so that, for example, if the problem asks you to put 0.0097 in scientific notation, you would enter 9.7x10^-2 into the answer blank. </em></p>
+<p><ol label="a.">
+<li>
+<p><m>\displaystyle{0.0030}</m>   <fillin characters="7" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p><m>\displaystyle{34.5}</m>   <fillin characters="7" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p><m>\displaystyle{1000.1}</m>   <fillin characters="7" name="AnSwEr0003"/></p>
+</li>
+<li>
+<p><m>\displaystyle{0.0003405}</m>   <fillin characters="7" name="AnSwEr0004"/></p>
+</li>
+<li>
+<p><m>\displaystyle{65800}</m>   <fillin characters="7" name="AnSwEr0005"/></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>To review the rules of writing scientific notation, click <url href="">here</url></p>
+</hint>
+      <answer>
+        <p>
+          <m>3.0 \times  10^{-3}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3.45 \times  10^{1}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1.0001 \times  10^{3}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3.405 \times  10^{-4}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6.58 \times  10^{4}</m>
+        </p>
+      </answer>
+      <solution><p><ol label="a.">
+<li>
+<p><m>\displaystyle{0.0030}</m> is written in scientific notation as <m>\displaystyle{{3.0 \times  10^{-3}}}</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle{34.5}</m> is written in scientific notation as <m>\displaystyle{{3.45 \times  10^{1}}}</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle{1000.1}</m> is written in scientific notation as <m>\displaystyle{{1.0001 \times  10^{3}}}</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle{0.0003405}</m> is written in scientific notation as <m>\displaystyle{{3.405 \times  10^{-4}}}</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle{65800}</m> is written in scientific notation as <m>\displaystyle{{6.58 \times  10^{4}}}</m>.</p>
+</li>
+</ol></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="chem-library/setCH151_LearningChecks/module2-2c.pg" origin="webwork2" domain="https://webwork.pcc.edu" course-id="chem-test-course" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="chem-library/setCH151_LearningChecks/module2-2c.pg"/>
+  </webwork-reps>
 </webwork-representations>

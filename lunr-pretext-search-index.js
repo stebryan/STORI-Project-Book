@@ -352,6 +352,159 @@ var ptx_lunr_docs = [
   "body": " Examples of Metric Equalities   Decimeters to Meters  Let's look at some examples using a meter stick. While this is not to scale, the second bar represents one meter. Each smaller bar represents one decimeter. If you wanted, you could just count and see that 10 decimeters, fit in a meter.       Centimeters to Meters  Let's keep using the same meter stick, but now focus on centimeters. The second bar is still one meter long—this time divided into 100 equal centimeter blocks. Just like before, you can count all the blocks to see that 100 centimeters fit exactly into one meter.       Millimeters to Meters  Finally, zoom in even further by looking at millimeters on that same meter stick. This bar is broken into 1,000 millimeter slices. Slide through them to see that filling all 1,000 millimeters still lines up with one full meter.      "
 },
 {
+  "id": "knowledge-check3",
+  "level": "1",
+  "url": "knowledge-check3.html",
+  "type": "Section",
+  "number": "2.6",
+  "title": "Check Your Knowledge",
+  "body": " Check Your Knowledge  Work through the interactive problems below to check your understanding of the concepts in the previous sections.       Standard SI Units  What is the standard SI unit for each of the following measures from which all other units can be derived:    Length    Mass    Time    Temperature     To review this material, click here                                Metric Equalities  Answer the True\/False Questions.    A kilogram is larger than a gram.  true   false     A meter is smaller than a millimeter.  true   false     There are L in 1 mL.  true   false      To review this material, click here                           Metric Equalities  Fill in numbers with units that make the equality underneath true.    Write an equality that shows the relationship between kilograms and grams. For example one way to answer to this question would be 1000 g = 1 kg. Can you think of any other? (Hint: reformat 1000 as a power of 10.)  =    Write an equality that shows the relationship between a meter (m) and a millimeter (mm).  =    Write an equality that shows the relationship between a liter (L) and a millilter (mL).  =     To review this material, click here                                       "
+},
+{
+  "id": "knowledge-check3-3-1",
+  "level": "2",
+  "url": "knowledge-check3.html#knowledge-check3-3-1",
+  "type": "Exercise",
+  "number": "2.6.Exercise 2.1",
+  "title": "",
+  "body": "    Standard SI Units  What is the standard SI unit for each of the following measures from which all other units can be derived:    Length    Mass    Time    Temperature     To review this material, click here                           "
+},
+{
+  "id": "knowledge-check3-3-2",
+  "level": "2",
+  "url": "knowledge-check3.html#knowledge-check3-3-2",
+  "type": "Exercise",
+  "number": "2.6.Exercise 2.2",
+  "title": "",
+  "body": "    Metric Equalities  Answer the True\/False Questions.    A kilogram is larger than a gram.  true   false     A meter is smaller than a millimeter.  true   false     There are L in 1 mL.  true   false      To review this material, click here                      "
+},
+{
+  "id": "knowledge-check3-3-3",
+  "level": "2",
+  "url": "knowledge-check3.html#knowledge-check3-3-3",
+  "type": "Exercise",
+  "number": "2.6.Exercise 2.3",
+  "title": "",
+  "body": "    Metric Equalities  Fill in numbers with units that make the equality underneath true.    Write an equality that shows the relationship between kilograms and grams. For example one way to answer to this question would be 1000 g = 1 kg. Can you think of any other? (Hint: reformat 1000 as a power of 10.)  =    Write an equality that shows the relationship between a meter (m) and a millimeter (mm).  =    Write an equality that shows the relationship between a liter (L) and a millilter (mL).  =     To review this material, click here                                     "
+},
+{
+  "id": "sec-scientific-notation",
+  "level": "1",
+  "url": "sec-scientific-notation.html",
+  "type": "Section",
+  "number": "2.7",
+  "title": "Very Large and Very Small Numbers",
+  "body": " Very Large and Very Small Numbers     A large goldfish next to a small goldfish   In chemistry, we need to use both very large and very small numbers.   Often in science, especially chemistry, we encounter very large or very small numbers. for example, One penny contains 29,500,000,000,000,000,000,000 copper atoms. When trying to read how many copper atoms are in a penny, we are likely to make a mistake with all of those zeros. The same is true for the mass in grams of 1 copper atom which is 0.000000000000000000000104 grams. The way these numbers are written, with all the zeros, is called standard notation. However, it is easier to write, read, and understand these numbers if they are put in scientific notation. Compare those long numbers to what they sound like in scientific notation. One penny contains copper atoms. One copper atom weighs grams.    A Closer Look at Scientific Notation    A number in scientific notation   A number in scientific notation has two parts: the cofficient and the exponent.   A number in scientific notation has a coefficient part and an exponent part. The exponent, or power, part tells us whether the number is very small or very big.When the exponent is positive, the number is very big.When the exponent is negative, the number is very small. The exponent part also tells us how many zeros the number has. The coefficient part is the number 2.46. Since there are three digits to this part, it is said to have three significant digits. Just make a mental note of this for now. There will be more on significant digits later. Note also where the decimal point is placed because on the next slide you will learn how to convert a number into a scientific notation like this one, and the placement of the decimal point is one of the most important parts.   "
+},
+{
+  "id": "big-and-small",
+  "level": "2",
+  "url": "sec-scientific-notation.html#big-and-small",
+  "type": "Figure",
+  "number": "2.7.1",
+  "title": "",
+  "body": "  A large goldfish next to a small goldfish   In chemistry, we need to use both very large and very small numbers.  "
+},
+{
+  "id": "number-in-scientific-notation",
+  "level": "2",
+  "url": "sec-scientific-notation.html#number-in-scientific-notation",
+  "type": "Figure",
+  "number": "2.7.2",
+  "title": "",
+  "body": "  A number in scientific notation   A number in scientific notation has two parts: the cofficient and the exponent.  "
+},
+{
+  "id": "sec-converting-to-sci-notation",
+  "level": "1",
+  "url": "sec-converting-to-sci-notation.html",
+  "type": "Section",
+  "number": "2.8",
+  "title": "Converting a Number to Scientific Notation",
+  "body": " Converting a Number to Scientific Notation  Here are the steps to convert a number in standard notation to scientific notation.   When you are looking at a number in standard notation, first, find the decimal point. In the case of the number 5983 kg, it comes after the 3. Typically, you don't write the decimal on a whole number, but we've included it here to make it clear where the decimal would be.    Next we move the decimal point to obtain a number between 1 and 10. You want only one digit to be to the left of the decimal point. So let's move the decimal point to just after the five in our example.    Every time we move the decimal point, we change the power of 10 by one. If we move the decimal point to the left the exponent is positive, and if we move the decimal to the right the exponent is negative. The full statement in our example then becomes 5.983 times 10 to the third power. We multiply that number by 10 to the nth power, where n is the same number of places you moved the decimal point.       The process of converting 2437 to scientific notation invloves moving the decimal behind the 2 and adding the exponent part of 10 to the third.   The process of converting a number into scientific notation involves moving a decimal to make the coefficient number between 1 and 10 and adding an exponent part to account for this shift.   Let's look at another example.    The process of converting 0.0053 to scientific notation invloves moving the decimal behind the 5 and adding the exponent part of 10 to the negative third.   An example that involves a negative exponent.   "
+},
+{
+  "id": "sci-conversion",
+  "level": "2",
+  "url": "sec-converting-to-sci-notation.html#sci-conversion",
+  "type": "Figure",
+  "number": "2.8.1",
+  "title": "",
+  "body": "  The process of converting 2437 to scientific notation invloves moving the decimal behind the 2 and adding the exponent part of 10 to the third.   The process of converting a number into scientific notation involves moving a decimal to make the coefficient number between 1 and 10 and adding an exponent part to account for this shift.  "
+},
+{
+  "id": "sci-conversion2",
+  "level": "2",
+  "url": "sec-converting-to-sci-notation.html#sci-conversion2",
+  "type": "Figure",
+  "number": "2.8.2",
+  "title": "",
+  "body": "  The process of converting 0.0053 to scientific notation invloves moving the decimal behind the 5 and adding the exponent part of 10 to the negative third.   An example that involves a negative exponent.  "
+},
+{
+  "id": "sec-exponents",
+  "level": "1",
+  "url": "sec-exponents.html",
+  "type": "Section",
+  "number": "2.9",
+  "title": "Exponents in Scientific Notation",
+  "body": " Exponents in Scientific Notation  What do the exponents in scientific notation actually mean? Can we do the reverse from the examples in the previous sections, and put scientific notation into standard notation?   Positive Exponents  Let's look closer at the exponent part of scientific notation using the following interactive. Notice how 10 to the 0 equals 1, since any number to the zeroth power equals 1. Zero is neither positive nor negative, so it has its own rule.However, a positive exponent means one times 10 \"n\" times, n being the number in the exponent. 10 to the 1 means one times 10, which equals 10 in standard notation. 10 to the 2 means one times 10 times another 10, or 100. 10 to the 3 means one times 10 times another 10 times another 10, or 1000.0.     Negative Exponents  Negative exponents do the opposite of positive ones. Instead of multiplying by 10 over and over, you keep dividing by 10, which moves the decimal point to the left. because you divide 1 by 10 once, and because you divide by 10 four times. Use the interactive to see how each additional negative power shrinks the number.    "
+},
+{
+  "id": "knowledge-check4",
+  "level": "1",
+  "url": "knowledge-check4.html",
+  "type": "Section",
+  "number": "2.10",
+  "title": "Check Your Knowledge",
+  "body": " Check Your Knowledge  Work through the interactive problems below to check your understanding of the concepts in the previous sections.       Scientific Notation  Answer the True\/False Questions.    Chemist generally find it convenient to write very large and very small numbers in scientific notation.  true   false     Numbers written in scientific notation will always contain 1 digit to the right of the decimal place.  true   false     Scientific calculators contain special key(s) to help input numbers in scientific notation.  true   false      To review this material, click here                    This is true. Chemists generally find it inconvenient to use standard notation to write very large and very small numbers! Using scientific notation simplifies writing these numbers.    This is false. There will always be one digit to the left of the decimal but not necessarily to the right.    This is true. Scientific calculators are designed to used scientfiic notiaton! Using the built-in functions included on your calculator will simplify woking with the calculator and reduce the likelihood of calculator errors.              Standard Notation  Write the following numbers in standard decimal notation.                         To review the rules of writing standard notation, click here                              is written as 3405. The positive 3 means that the decimal is moved 3 spaces to make the number larger.    is written as 0.000443. The negative 4 means that the decimal is moved 4 spaces to make the number smaller. If the decimal is moved past spaces that have no numbers fill these digits in with zeros.    is written as 34000.1. The positive 4 means that the decimal is moved 4 spaces to make the number larger.    is written as 43875. The positive 4 means that the decimal is moved 4 spaces to make the number larger.    is written as 56000. The positive 4 means that the decimal is moved 4 spaces to make the number larger. If the decimal is moved past spaces that have no numbers fill these digits in with zeros.              Scientific Notation  Write each of the following numbers in scientific notation. Remember that scientific notation is entered as x10^ so that, for example, if the problem asks you to put 0.0097 in scientific notation, you would enter 9.7x10^-2 into the answer blank.                         To review the rules of writing scientific notation, click here                              is written in scientific notation as .    is written in scientific notation as .    is written in scientific notation as .    is written in scientific notation as .    is written in scientific notation as .           "
+},
+{
+  "id": "knowledge-check4-3-1",
+  "level": "2",
+  "url": "knowledge-check4.html#knowledge-check4-3-1",
+  "type": "Exercise",
+  "number": "2.10.Exercise 2.4",
+  "title": "",
+  "body": "    Scientific Notation  Answer the True\/False Questions.    Chemist generally find it convenient to write very large and very small numbers in scientific notation.  true   false     Numbers written in scientific notation will always contain 1 digit to the right of the decimal place.  true   false     Scientific calculators contain special key(s) to help input numbers in scientific notation.  true   false      To review this material, click here                    This is true. Chemists generally find it inconvenient to use standard notation to write very large and very small numbers! Using scientific notation simplifies writing these numbers.    This is false. There will always be one digit to the left of the decimal but not necessarily to the right.    This is true. Scientific calculators are designed to used scientfiic notiaton! Using the built-in functions included on your calculator will simplify woking with the calculator and reduce the likelihood of calculator errors.         "
+},
+{
+  "id": "knowledge-check4-3-2",
+  "level": "2",
+  "url": "knowledge-check4.html#knowledge-check4-3-2",
+  "type": "Exercise",
+  "number": "2.10.Exercise 2.5",
+  "title": "",
+  "body": "    Standard Notation  Write the following numbers in standard decimal notation.                         To review the rules of writing standard notation, click here                              is written as 3405. The positive 3 means that the decimal is moved 3 spaces to make the number larger.    is written as 0.000443. The negative 4 means that the decimal is moved 4 spaces to make the number smaller. If the decimal is moved past spaces that have no numbers fill these digits in with zeros.    is written as 34000.1. The positive 4 means that the decimal is moved 4 spaces to make the number larger.    is written as 43875. The positive 4 means that the decimal is moved 4 spaces to make the number larger.    is written as 56000. The positive 4 means that the decimal is moved 4 spaces to make the number larger. If the decimal is moved past spaces that have no numbers fill these digits in with zeros.         "
+},
+{
+  "id": "knowledge-check4-3-3",
+  "level": "2",
+  "url": "knowledge-check4.html#knowledge-check4-3-3",
+  "type": "Exercise",
+  "number": "2.10.Exercise 2.6",
+  "title": "",
+  "body": "    Scientific Notation  Write each of the following numbers in scientific notation. Remember that scientific notation is entered as x10^ so that, for example, if the problem asks you to put 0.0097 in scientific notation, you would enter 9.7x10^-2 into the answer blank.                         To review the rules of writing scientific notation, click here                              is written in scientific notation as .    is written in scientific notation as .    is written in scientific notation as .    is written in scientific notation as .    is written in scientific notation as .         "
+},
+{
+  "id": "sec-calculator-exponents",
+  "level": "1",
+  "url": "sec-calculator-exponents.html",
+  "type": "Section",
+  "number": "2.11",
+  "title": "Using the Exponent Key on a Calculator",
+  "body": " Using the Exponent Key on a Calculator    the EE button on a calculator is circled in red.   Finding the exponent button on your calculator is important. Ask your instructor for help if you need to before any exams or quizzes.   It is important to know how to find and use the exponent key on your calculator. Different calculators have different methods for turning exponential mode on and off. Many calculators use a double capital EE or sometimes a single capital E or the abbreviation EXP. Be sure you are familiar with the exponent key on your calculator before a quiz or exam. To be ready, you may want to search the instruction manual for your particular calculator. You can also ask your instructor for help, however NOT during a quiz or exam.  Let's look at the following problem:   These keystrokes in this order should ensure you get the correct answer when using the exponent key on your calculator. Try them now. The arrows are used here to mean \"then press\" and are not representative of a button on your calculator.Press the 1 button on your calculator, then press the decimal point button, then press the 2 button....and so on.   The display on your calculater should be 4.2857143 E-10. This is the way calculators display scientific notation. In order to use the answer you have to interpret it. We will talk about how to round and where to round later. You should always write the scientific notation out as a power of ten and not use calculator notation. The final answer to this problem would then be .  If you do not get the correct answer, then you are not using your exponent key correctly. Remember your exponent button may not be EE. It could also be EXP or something else.  "
+},
+{
+  "id": "calculator",
+  "level": "2",
+  "url": "sec-calculator-exponents.html#calculator",
+  "type": "Figure",
+  "number": "2.11.1",
+  "title": "",
+  "body": "  the EE button on a calculator is circled in red.   Finding the exponent button on your calculator is important. Ask your instructor for help if you need to before any exams or quizzes.  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
