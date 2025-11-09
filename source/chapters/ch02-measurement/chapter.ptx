@@ -55,4 +55,7 @@
     <xi:include href="exponents.ptx" />
     <xi:include href="knowledge-check4.ptx" />
     <xi:include href="calculator-exponents.ptx" />
+    <xi:include href="sig-figs-and-measurement.ptx" />
+    <xi:include href="knowledge-check5.ptx" />
+    <xi:include href="sig-figs.ptx" />
 </chapter>

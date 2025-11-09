@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sig-figs">
+    <title>Significant Figures</title>
+
+    <introduction>
+        <p>
+            When we made measurements in the previous sections, we recorded all known or certain digits plus one estimated or uncertain digit.
+            These digits together are called <term>significant digits</term> or <term>significant figures</term>, sometimes shortened to sig figs.
+            Significant figures are an estimation of the precision, or repeatability, of a measurement.
+            Precision is like drawing within the lines, and when we talk about its repeatability it is like being able to consistently draw within the lines.
+            Precision should not be confused with accuracy.
+            Accuracy is how close a measurement is to the actual or true value, for example knowing the exact amount of flour in a cookie recipe.
+            There is an objective fact in the middle of it, which is wrapped in a precise package.
+            For example, if I were to measure an object three times and all of my measurements are close together, they would be considered precise, even if my measurement was inaccurate.
+            This is because precision is about how I repeated the process three times and came to similar measurements each time.
+            Accuracy is about how close I came to the correct answer.
+            Ideally the two are working in concert and any given measurement is both precise and accurate.
+            This may be confusing at first, so try to just keep one main thing in mind: significant figures include all certain digits, plus one uncertain digit - which indicate the precision of a measurement.
+            There are six guidelines to follow which will help you determine the correct number of significant figures in a given value.
+        </p>
+    </introduction>
+
+
+    <subsection xml:id="subsec-guidline-one">
+        <title>Guideline One</title>
+
+        <alert>All non-zero digits are significant.</alert>
+        <table>
+            <title>Examples Using Guidline One</title>
+
+            <tabular>
+                <row>
+                    <cell><m>38.15\text{ g}</m></cell>
+                    <cell>4 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>5.6\times10^{-6}\text{ g}</m></cell>
+                    <cell>2 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>65.6\text{ g}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>122.55\text{ g}</m></cell>
+                    <cell>5 sig figs</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            The first guideline is that any non-zero digit is significant.
+            For example, in the measurement 38.15 grams, there are four significant figures because none of the digits are zero.
+            Let's look at the example in the second row, 5.6 times ten to the negative 3 grams.
+            When counting significant figures in a number written in scientific notation like this one, only count digits in the coefficient part.
+            Remember from the section on scientific notation that the coefficient part is separate from the base and the exponent.
+            The base and the exponent part do not contribute to the number of significant figures.
+            Look at the other examples above to make sure you understand how significant figures are counted using guideline one.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-guidline-two">
+        <title>Guideline Two</title>
+
+        <alert>Interior zeros (zeros between two numbers) are significant.</alert>
+        <table>
+            <title>Examples Using Guidline Two</title>
+
+            <tabular>
+                <row>
+                    <cell><m>50.8\text{ m}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>2001\text{ m}</m></cell>
+                    <cell>4 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>7.02\times10^{2}\text{ m}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>0.040405\text{ m}</m></cell>
+                    <cell>5 sig figs</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            The next guideline is that interior zeros, which are zeros between two nonzero numbers, are significant.
+            For example, the zero in 50.8 meters is significant because it is sandwiched between two nonzero numbers.
+            Another example, 2001 meters has four significant figures because the zeros between the 2 and the 1 are important to that measurement.
+            Same with the third example, <m>7.02\times10^{2}</m> meters.
+            The zero after the seven and before the two is an interior zero.Finally look at <m>0.040405</m> meters.
+            You might think that the zero directly to the right of the decimal point is significant, but it is not sandwiched between two non-zero numbers, therefore it is not significant.
+            More on this type of zero in guideline five.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-guidline-three">
+        <title>Guideline Three</title>
+
+        <alert>Trailing zeros (zeros to the right of a nonzero number) that fall after a decimal point are significant.</alert>
+        <table>
+            <title>Examples Using Guidline Three</title>
+
+            <tabular>
+                <row>
+                    <cell><m>50.80\text{ cm}</m></cell>
+                    <cell>4 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>25.0\text{ cm}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>4.800\times10^{6}\text{ cm}</m></cell>
+                    <cell>4 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>2.00000\text{ cm}</m></cell>
+                    <cell>6 sig figs</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            The third guideline is that trailing zeros after a decimal point are significant.
+            Trailing zeros are zeros to the right of a nonzero number.
+            For instance, in the measurement 50.80 centimeters, the last zero is a trailing zero and because it falls after a decimal point it is significant.
+            These zeroes are written for the sole purpose of communicating precision, to tell others the measurement was taken to that additional precision.
+            Here are three more examples of where the trailing zeros after a decimal point add to the significant figures.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-guidline-four">
+        <title>Guideline Four</title>
+
+        <alert>Trailing zeros that fall before an explicit decimal point are significant.</alert>
+        <table>
+            <title>Examples Using Guidline Four</title>
+
+            <tabular>
+                <row>
+                    <cell><m>440.\text{ mL}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>2200.\text{ mL}</m></cell>
+                    <cell>4 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>3010.\text{ mL}</m></cell>
+                    <cell>4 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>50.\text{ mL}</m></cell>
+                    <cell>2 sig figs</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            Trailing zeros before an explicit decimal point are also significant.
+            440 milliliters, as it is written here with a decimal point after the zero, has three significant figures.
+            The only reason the decimal point is written is to let you know that that zero is significant.
+            The second example is similar, twenty two hundred milliliters has four significant figures because there is a decimal point.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-guidline-five">
+        <title>Guideline Five</title>
+
+        <alert>Leading zeros, zeros to the left of a nonzero number, are not significant.</alert>
+        <table>
+            <title>Examples Using Guidline Five</title>
+
+            <tabular>
+                <row>
+                    <cell><m>0.449\text{ g}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>0.022\text{ g}</m></cell>
+                    <cell>2 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>0.00361\text{ g}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>0.0000001\text{ g}</m></cell>
+                    <cell>1 sig fig</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            This is the first guideline that points out when a zero is not significant.
+            Leading zeros, which are zeros to the left of the first nonzero number, are not significant.
+            Their purpose is as a placeholder.
+            In the measurement 0.449 grams, the leading zero is not significant, so this measurement has three significant figures.
+            If we were to write this number in scientific notation, the leading zero would not be included, and this would be <m>4.49\times10^{-1}</m>.
+            In the second example both of the zeros are leading zeros and to the left of the first nonzero number.
+            This makes them not significant.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-guidline-six">
+        <title>Guideline Six</title>
+
+        <alert>Trailing zeros at the end of a number without a decimal point are not significant</alert>
+        <table>
+            <title>Examples Using Guidline Six</title>
+
+            <tabular>
+                <row>
+                    <cell><m>3500\text{ kg}</m></cell>
+                    <cell>2 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>44000.\text{ kg}</m></cell>
+                    <cell>5 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>6150000\text{ kg}</m></cell>
+                    <cell>3 sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>10\text{ kg}</m></cell>
+                    <cell>1 sig fig</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            The last guideline is that trailing zeros in the absence of a decimal point are not significant.
+            For example 3500 kilograms written without a decimal point has only two significant figures.
+            However, 44000.
+            kilograms, has five significant figures.
+            The difference is whether the decimal point is absent or present.
+            When the decimal point is written, it makes those zeros significant.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-exact-numbers">
+        <title>Exact Numbers</title>
+
+        <alert>Counted numbers have an infinite number of sig figs and are said to be exact.</alert>
+        <table>
+            <title>Examples Using Guidline Six</title>
+
+            <tabular>
+                <row>
+                    <cell><m>24\text{ students}</m></cell>
+                    <cell><m>\infty</m> sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>100\text{ pencils}</m></cell>
+                    <cell><m>\infty</m> sig figs</cell>
+                </row>
+
+                <row>
+                    <cell><m>5\text{ numbers}</m></cell>
+                    <cell><m>\infty</m> sig figs</cell>
+                </row>
+
+                <row>
+                    <cell>10<m>\text{ cars}</m></cell>
+                    <cell><m>\infty</m> sig fig</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+            There are some numbers that are considered to have an infinite number of significant figures.
+            These are called exact numbers because they are known exactly and have no uncertainty.
+            Some examples of these are definitions and counted numbers.
+            There are exactly 12 objects in a dozen - this is an exact number and is said to have infinite sig figs, not just two.
+            Metric prefix conversions are also exact, for example, there are exactly 1000 mL in a liter.
+            If I count 24 students in a lab, this is also an exact number because there is no uncertainty.
+            Inexact numbers are not known exactly and do have some uncertainty.
+            Measurements are inexact numbers.
+            We use the previous guidelines for significant figures to determine the number of significant figures in an inexact number.
+        </p>
+    </subsection>
+</section>

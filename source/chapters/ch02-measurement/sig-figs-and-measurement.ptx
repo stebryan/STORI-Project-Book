@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sig-figs-and-measurement">
+    <title>Measurement &amp; Sig Figs</title>
+
+    <introduction>
+        <p>
+            When measuring an object, it is important that you record the appropriate number of digits to correctly reflect the precision of the measuring device.
+            Below, we have a ruler with a line just above it that we want to measure.
+            The first thing we should do is inspect our measuring device, in this case the ruler, to ensure we understand how to read it.This ruler, while not drawn to scale, is 10 cm long and it is broken into 1 cm sections, or increments.
+            The lines on the ruler represent the increments or graduations of measurement that are known or certain.
+            We should always record all known digits plus one estimated digit in the next place value.
+            You might think of this estimation as reading between the lines on the measuring device.
+        </p>
+
+        <figure xml:id="ruler-example">
+            <image source="chapters/ch02-measurement/images/measurement1.png" width="90%" >
+                <description>
+                    A green bar above a ruler.
+                    The ruler is labeled every centimeter.
+                </description>
+            </image>
+            <caption>When taking measurements with an analog device like a ruler, the precision of the tick marks determines the sig figs. The bar above could be measured as <m>5.5\pm 0.1\text{ cm}</m></caption>
+        </figure>
+
+        <p>
+            Let's take a look at the line in the figure as an example.
+            We start by lining up one end of the line with the 0 cm marking and see that the other end is just past the 5 cm marking.
+            This means that the line is at least 5 centimeters long and we can be certain of this length to the ones place, because of the markings of the ruler.
+            We must then make an estimate for the next digit, the tenths place.
+            The green line is approximately halfway between 5 centimeters and 6 centimeters, so I estimate that it is 5.5 centimeters.
+            However, someone else might estimate that it is 5.6 centimeters.
+            Another scientist, like you, might estimate that it is 5.4 centimeters.
+            All of these measurements are valid, so what we say is that the measurement has an uncertainty of plus or minus zero point one centimeter, <m>\pm 0.1\text{ cm}</m>.
+            The uncertainty is always plus or minus one, in the estimated decimal place.
+            Our full expression of the length of this bar is 5.5 centimeters with an uncertainty of plus or minus 0.1 cm, <m>5.5\pm 0.1\text{ cm}</m> Remember, to properly record a measurement, record all known digits plus 1 estimated digit.
+        </p>
+    </introduction>
+
+
+    <subsection xml:id="subsec-example-measurement">
+        <title>Example Measurements</title>
+
+        <p>
+            Let's look at some more examples together.
+        </p>
+
+        <example>
+            <figure xml:id="ruler-example2">
+                <image source="chapters/ch02-measurement/images/measurement2.png" width="90%" >
+                    <description>
+                        A blue bar above a ruler.
+                        The ruler is labeled every tenth centimeter.
+                    </description>
+                </image>
+                <caption>When taking measurements with an analog device like a ruler, the precision of the tick marks determines the sig figs. The bar above could be measured as <m>7.85\pm 0.01\text{ cm}</m></caption>
+            </figure>
+
+            <p>
+                We know that the blue line is at least 7 cm because of the numbered markings on the ruler.
+                Notice also that this ruler has even smaller increments.
+                We call these tick marks, for every tenth of a centimeter.
+                So if I pay close attention, I can tell that the blue line is at least 7.8 cm.
+                These are the digits that I know with certainty because there are lines on the ruler for these digits.
+                Now, I need to estimate one more digit for my digit of uncertainty.
+                I think that the line is about halfway between 7.8 and 7.9 centimeters, so I estimate that it is 7.85 centimeters.
+                And, because I estimated the hundredths place, this measurement has an uncertainty of plus or minus 1 hundredth of a centimeter.
+            </p>
+        </example>
+
+        <example>
+            <figure xml:id="ruler-example3">
+                <image source="chapters/ch02-measurement/images/measurement4.png" width="90%" >
+                    <description>
+                        A green bar above a ruler.
+                        The ruler is labeled every centimeter.
+                    </description>
+                </image>
+                <caption>When taking measurements with an analog device like a ruler, the precision of the tick marks determines the sig figs. The bar above could be measured as <m>7.0\pm 0.1\text{ cm}</m></caption>
+            </figure>
+
+            <p>
+                This ruler has lines for every centimeter just like the first figure on this page.
+                It is fairly clear that the line is 7 cm.
+                However, we still need to estimate one more digit.
+                When we examine the line more closely, it seems to be at 7 cm exactly.
+                Therefore my estimate will be seven point zero centimeters.
+                It is important to point out that if you think the object is right on the line, it is okay for your estimate to be zero.
+                It is actually very important that you record that 0.
+                This measurement is properly reported as seven point zero centimeters with an uncertainty of plus or minus point one centimeters.
+            </p>
+        </example>
+
+        <example>
+            <figure xml:id="gradcylinder-example">
+                <image source="chapters/ch02-measurement/images/measurement3.png" width="20%" >
+                    <description>
+                        Yellow liquid in a graduated cylinder.
+                        The graduated cylinder is labeled every millimeter.
+                    </description>
+                </image>
+                <caption>When taking liquid measurements with a device like a graduated cylinder, the same rules apply. The precision of the tick marks determines the sig figs. The liquid above could be measured as <m>14.6\pm 0.1\text{ mL}</m></caption>
+            </figure>
+
+            <p>
+                The same process is true when taking measurements with glassware in the lab.
+                To properly record the volume of liquid in this graduated cylinder, we must record all known digits plus one estimate.
+                One big difference, though, is that liquids in thin glass tubes form what is called a <term>meniscus</term>, which is the sort of caved in portion of the liquid's surface.This happens because the liquid adheres to the glass walls and pulls up on the sides.
+                When measuring volume, always measure from the bottom point of the meniscus.
+                This graduated cylinder has tick marks for every milliliter, and I can tell the bottom point of the meniscus is between 14 and 15 milliliters, so I record 14 milliliters with confidence.
+                To be more precise, I must estimate one more digit, the tenths place.
+                I think the liquid level is a little more than halfway up between 14 and 15 milliliters, so I would record this measurement as 14.6 milliliters, where the point six is my estimated digit.
+                Therefore this gives me an uncertainty of plus or minus one tenth of a milliliter.
+            </p>
+        </example>
+    </subsection>
+
+
+    <subsection xml:id="subsec-digital-devices">
+        <title>Digital Devices</title>
+
+        <figure xml:id="scale-example">
+            <image source="chapters/ch02-measurement/images/scale1.png" width="60%" >
+                <description>
+                    The read out on a digital scale says 18.40 g
+                </description>
+            </image>
+            <caption>When using digital devices, record all the digits. The reading from the scale above could be measured as <m>18.40\pm 0.01\text{ g}</m></caption>
+        </figure>
+
+        <p>
+            If you are using any electronic measuring devices, like the laboratory balance or electronic calipers, you will need to record all the digits that the readout on the screen provides and nothing more.
+            These devices are already doing the estimation for you and provide you the known digits and the digit of uncertainty, so you do not need to estimate a digit when using electronic devices.
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-precision">
+        <title>Instrument Precision</title>
+
+        <sbsgroup widths="40% 40%" valign="bottom">
+            <sidebyside>
+                <figure xml:id="grad-cylinder1">
+                    <image source="chapters/ch02-measurement/images/grad-cylinder-50mL.jpg" width="20%" >
+                        <description>
+                            A graduated cylinder with tick marks every millimeter.
+                        </description>
+                    </image>
+                    <caption>A graduated cylinder with tick marks every millimeter.</caption>
+                </figure>
+
+                <figure xml:id="grad-cylinder2">
+                    <image source="chapters/ch02-measurement/images/grad-cylinder-5mL.jpg" width="20%"  >
+                        <description>
+                            A graduated cylinder with tick marks every tenth millimeter.
+                        </description>
+                    </image>
+                    <caption>A graduated cylinder with tick marks every tenth millimeter.</caption>
+                </figure>
+            </sidebyside>
+        </sbsgroup>
+
+        <p>
+            How precise a measuring tools is depends on the design of the tool.A ruler with more detail, more tick marks, will have more precision.
+            Similarly, depending on the size of what is being measured, the smaller your tool, the more accurate your estimate will be.
+            These two graduated cylinders are both in mL, but note the total capacity of each.
+            One shows 10 mL for each larger tick mark, which means the smaller tick marks are 1 mL each.
+            The other cylinder has 1 mL for each larger tick mark, which means the smaller tick marks are 0.1mL.
+            Depending on how much liquid you need to measure, if it can fit in the second cylinder, you would be able to measure with more precision since we would estimate to the hundredths place.
+            The first cylinder may only be estimated to the tenths place.
+            Just as you choose the unit which is closest in size to what is being measured, you also choose the measuring tool which is closest in size.
+        </p>
+    </subsection>
+</section>
